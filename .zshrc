@@ -68,6 +68,8 @@ export LANG=en_US.UTF-8
 # export ARCHFLAGS="-arch x86_64"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
+export EDITOR=vim
+
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
