@@ -1,0 +1,4 @@
+#!/bin/bash
+
+read a < /sys/class/backlight/nv_backlight/brightness
+echo "$a%"
