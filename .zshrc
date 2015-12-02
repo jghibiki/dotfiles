@@ -45,7 +45,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git cp debian docker httpie npm node pip python screen sudo taskwarrior virtualenv)
+plugins=(git cp debian docker httpie npm node pip python screen sudo taskwarrior virtualenv autojump sublime extract django emoji archlinux fabric git-flow )
 
 # User configuration
 
