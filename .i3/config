@@ -248,3 +248,4 @@ client.urgent				#383a3b #383a3b #cccccc
 exec --no-startup-id xrdb -load ~/.Xresources
 exec --no-startup-id xfconf-query -c xsettings -p /Xft/Antialias -n -t int -s 1
 exec --no-startup-id xfconf-query -c xsettings -p /Xft/Lcdfilter -n -t string -s lcddefault
+exec --no-startup-id rm /dev/shm/toggle_*

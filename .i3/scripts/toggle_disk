@@ -1,0 +1,23 @@
+
+#!/bin/bash
+
+
+# path to store the old results in
+path="/dev/shm/$(basename $0)"
+
+DEFAULT="${BLOCK_INSTANCE:-1}"
+
+if ! [[ -f "${path}" ]]; then
+  echo $DEFAULT > "${path}"
+  chmod 0666 "${path}"
+else
+    read old < "${path}";
+
+    if [[ "$old" -gt 0 ]]; then
+        echo "0" > "${path}"
+    else
+        echo "1" > "${path}"
+    fi
+fi
+
+echo "<span color='#9fbc00'></span>"
