@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/jghibiki/.oh-my-zsh
+export ZSH=/home/jgoetze/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -49,7 +49,7 @@ plugins=(git cp debian docker httpie npm node pip python screen sudo taskwarrior
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/jghibiki/.rvm/bin:/home/jghibiki/.rvm/bin::/home/jghibiki/.rvm/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/jgoetze/.rvm/bin:/home/jgoetze/.rvm/bin::/home/jgoetze/.rvm/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -86,16 +86,13 @@ alias ag="/usr/bin/ag"
 alias lock="i3lock -c '#000000'"
 
 # added by travis gem
-[ -f /home/jghibiki/.travis/travis.sh ] && source /home/jghibiki/.travis/travis.sh
+[ -f /home/jgoetze/.travis/travis.sh ] && source /home/jgoetze/.travis/travis.sh
 
 # virtual env wrapper config
 #export WORKON_HOME=$HOME/.virtualenvs
 #export PROJECT_HOME=$HOME/Git/
 #export VIRTUALENVWRAPPER_SCRIPT=/usr/local/bin/virtualenvwrapper.sh
 #source /usr/local/bin/virtualenvwrapper_lazy.sh
-if [[ -r ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
-    source ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
-fi
 
 
 . $HOME/.shellrc.load
