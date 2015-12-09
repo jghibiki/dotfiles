@@ -1,6 +1,6 @@
 ## Receive optionse
 set imap_user=jgoetze@evolution1.com
-set imap_pass = ''
+set imap_pass = `pass mutt/evo1`
 set folder = imaps://jgoetze@evolution1.com@smtp.office365.com:993/
 set spoolfile = +INBOX
 set postponed = +Drafts
@@ -19,4 +19,4 @@ unset ssl_starttls
 set imap_check_subscribed
 
 ## Hook -- IMPORTANT!
-account-hook $folder "set imap_user=jgoetze@evolution1.com@smtp.office365.com:587/ imap_pass='' "
+account-hook $folder "set imap_user=jgoetze@evolution1.com@smtp.office365.com:587/ imap_pass=`pass mutt/evo1` "
