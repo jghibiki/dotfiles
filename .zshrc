@@ -96,3 +96,6 @@ alias lock="i3lock -c '#000000'"
 
 
 . $HOME/.shellrc.load
+
+# lead tmuxinator
+source ~/.bin/tmuxinator.zsh
