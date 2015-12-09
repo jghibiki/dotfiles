@@ -398,8 +398,8 @@ endfunction
 
 syntax enable
 set background=dark
-let g:solarized_termtrans = 1
-colorscheme solarized
+" let g:solarized_termtrans = 1
+" colorscheme solarized
 
 filetype plugin indent on
 
@@ -410,8 +410,8 @@ set clipboard+=unnamed
 set t_Co=256
 
 
-let g:solarized_termcolors=256
-colorscheme solarized
+" let g:solarized_termcolors=256
+" colorscheme solarized
 "colorscheme desert256
 set background=dark
 "set t_AB=^[[48;5;%dm
@@ -451,7 +451,7 @@ Plugin 'bling/vim-airline'
 " Plugin 'Lokaltog/vim-easymotion'
 " Plugin 'klen/python-mode'
 " Plugin 'davidhalter/jedi-vim' 
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'edkolev/promptline.vim'
 Plugin 'edkolev/tmuxline.vim'
