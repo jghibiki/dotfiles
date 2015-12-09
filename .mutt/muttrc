@@ -1,5 +1,6 @@
 ## General options
-set header_cache = "~/.cache/mutt"
+set header_cache = "~/.cache/mutt-headers"
+set message_cachedir = "~/.cache/mutt-messages"
 set imap_check_subscribed
 set imap_keepalive = 300
 unset imap_passive
@@ -20,15 +21,18 @@ folder-hook $folder 'source ~/.mutt/jordan.goetze@gmail.com'
 source "~/.mutt/ndsu"
 folder-hook $folder 'source ~/.mutt/ndsu'
 
+## ACCOUNT3
+source "~/.mutt/evo1"
+folder-hook $folder 'source ~/.mutt/evo1'
 
 ## shortcuts 
 macro index,pager <f2> '<sync-mailbox><enter-command>source ~/.mutt/jghibiki.games@gmail.com<enter><change-folder>!<enter>'
 macro index,pager <f3> '<sync-mailbox><enter-command>source ~/.mutt/jordan.goetze@gmail.com<enter><change-folder>!<enter>'
 macro index,pager <f4> '<sync-mailbox><enter-command>source ~/.mutt/ndsu<enter><change-folder>!<enter>'
+macro index,pager <f5> '<sync-mailbox><enter-command>source ~/.mutt/evo1<enter><change-folder>!<enter>'
 
 macro index 'c' '<change-folder>?<change-dir><home>^K=<enter>'
 
-set sidebar_visible = no
 set sleep_time = 0
 
 # helps allow nice viewing of html messages
@@ -53,9 +57,9 @@ bind index <Down> next-entry
 bind pager <Down> next-line
 
 bind index j next-entry
-#bind pager j next-line
+bind pager j next-line
 bind index k previous-entry
-#bind pager k previous-line
+bind pager k previous-line
 
 # a bit more like slrn...
 bind index X exit

@@ -1,23 +1,22 @@
 ## Receive optionse
-set imap_user=jordan.goetze@ndsu.edu
+set imap_user=jgoetze@evolution1.com
 set imap_pass = ''
-set folder = imaps://jordan.goetze@ndsu.edu@smtp.office365.com:993/
+set folder = imaps://jgoetze@evolution1.com@smtp.office365.com:993/
 set spoolfile = +INBOX
 set postponed = +Drafts
 set record = "+Sent Items"
 
 ## Send options.
-set smtp_url=smtp://$imap_user:$imap_password@smtp.office365.com:587/
+set smtp_url=smtps://$imap_user@smtp.office365.com:587/
 set realname='Jordan Goetze'
-set from=jordan.goetze@ndsu.edu
+set from=jgoetze@evolution1.com
 set hostname="ndsu.edu"
 set signature=""
 # Connection options
 set ssl_force_tls = yes
 unset ssl_starttls
 
-
 set imap_check_subscribed
 
 ## Hook -- IMPORTANT!
-account-hook $folder "set imap_user=jordan.goetze@ndsu.edu@smtp.office365.com:587/ imap_pass='' "
+account-hook $folder "set imap_user=jgoetze@evolution1.com@smtp.office365.com:587/ imap_pass='' "
