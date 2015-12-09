@@ -1,6 +1,10 @@
 ## Receive optionse
 set imap_user=jghibiki.games@gmail.com
+<<<<<<< HEAD
 set imap_pass = `pass mutt/jghibiki.games@gmail.com`
+=======
+set imap_pass = ''
+>>>>>>> 7fe9a49... update mutt config to allow exchage mailing
 set folder  = imaps://jghibiki.games@imap.gmail.com/
 set spoolfile = "+INBOX"
 set postponed = "+Drafts"
@@ -17,4 +21,4 @@ set ssl_force_tls = yes
 unset ssl_starttls
 
 ## Hook -- IMPORTANT!
-account-hook $folder "set imap_user=jghibiki.games@gmail.com imap_pass=`pass mutt/jghibiki.games@gmail.com` "
+account-hook $folder "set imap_user=jghibiki.games@gmail.com imap_pass='' "
