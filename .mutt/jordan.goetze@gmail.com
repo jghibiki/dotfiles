@@ -1,6 +1,6 @@
 ## Receive options.
 set imap_user=jordan.goetze@gmail.com
-set imap_pass=''
+set imap_pass = `pass mutt/jordan.goetze@gmail.com`
 set spoolfile = imaps://jordan.goetze@imap.gmail.com/
 set postponed = +Drafts
 set record = +Sent
@@ -16,4 +16,4 @@ set ssl_force_tls = yes
 unset ssl_starttls
 
 ## Hook -- IMPORTANT!
-account-hook $folder "set imap_user=jordan.goetze@gmail.com imap_pass='' "
+account-hook $folder "set imap_user=jordan.goetze@gmail.com imap_pass=`pass mutt/jordan.goetze@gmail.com` "

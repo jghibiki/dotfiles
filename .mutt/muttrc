@@ -36,6 +36,10 @@ set mailcap_path    = ~/.mutt/mailcap
 auto_view text/html
 alternative_order text/plain text/html
 
+set sort=threads
+set sort_browser=date
+set sort_aux=reverse-last-date-received
+
 
 ##### BEGIN mutt keybindings
 
