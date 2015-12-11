@@ -83,8 +83,13 @@ export EDITOR=vim
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias irc="screen irssi"
 alias ag="/usr/bin/ag"
-alias lock="i3lock -c '#000000'"
-
+alias m="mutt"
+export WORKON_HOME=~/.venv
+alias venv="source /usr/bin/virtualenvwrapper.sh"
+alias lock="xscreensaver-command -lock"
+alias fuck='eval $(thefuck $(fc -ln -1))'
+# You can use whatever you want as an alias, like for Mondays:
+alias FUCK='fuck'
 # added by travis gem
 [ -f /home/jghibiki/.travis/travis.sh ] && source /home/jghibiki/.travis/travis.sh
 
@@ -99,3 +104,4 @@ fi
 
 
 . $HOME/.shellrc.load
+
