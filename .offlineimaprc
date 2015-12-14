@@ -1,0 +1,106 @@
+# Offlineimap configuration file
+
+[general]
+accounts = jghibiki_games, jordan_goetze, ndsu, evo1
+pythonfile = ~/.offlineimap.py
+
+[Account jghibiki_games]
+localrepository = jghibiki_games_local
+remoterepository = jghibiki_games_remote
+synclabels = yes
+# This header is where labels go.  Usually you will be fine
+# # with default value (X-Keywords), but in case you want it
+# # different, here we go:
+labelsheader = X-Keywords
+
+
+[Repository jghibiki_games_local] 
+type = GmailMaildir
+localfolders = ~/Mail/jghibiki.games@gmail.com
+
+[Repository jghibiki_games_remote]
+type = Gmail
+remotepasseval = jghibiki_games_pass()
+remoteuser = jghibiki.games@gmail.com
+ametrans = lambda foldername: re.sub ('^\[gmail\]', 'bak',
+                               re.sub ('sent_mail', 'sent',
+                               re.sub ('starred', 'flagged',
+                               re.sub (' ', '_', foldername.lower()))))
+folderfilter = lambda foldername: foldername not in ['[Gmail]/All Mail']
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+
+
+
+[Account jordan_goetze]
+localrepository = jordan_goetze_local
+remoterepository = jordan_goetze_remote
+synclabels = yes
+# This header is where labels go.  Usually you will be fine
+# # with default value (X-Keywords), but in case you want it
+# # different, here we go:
+labelsheader = X-Keywords
+
+
+[Repository jordan_goetze_local] 
+type = GmailMaildir
+localfolders = ~/Mail/jordan.goetze@gmail.com
+
+[Repository jordan_goetze_remote]
+type = Gmail
+remotepasseval = jordan_goetze_pass()
+remoteuser = jordan.goetze@gmail.com
+ametrans = lambda foldername: re.sub ('^\[gmail\]', 'bak',
+                               re.sub ('sent_mail', 'sent',
+                               re.sub ('starred', 'flagged',
+                               re.sub (' ', '_', foldername.lower()))))
+folderfilter = lambda foldername: foldername not in ['[Gmail]/All Mail']
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+
+
+
+[Account ndsu]
+localrepository = ndsu_local
+remoterepository = ndsu_remote
+
+
+[Repository ndsu_local] 
+type = Maildir
+localfolders = ~/Mail/ndsu
+
+[Repository ndsu_remote]
+type = IMAP
+remotehost = imap.outlook.com
+remotepasseval = ndsu_pass()
+remoteuser = jordan.goetze@ndsu.edu
+folderfilter = lambda foldername: foldername not in ['All Mail'] \
+    and foldername not in ['Junk E-Mail'] \
+    and foldername not in ["Listserv Junk"] \
+    and foldername not in ["Calendar"] \ 
+    and foldername not in ["Journal"] \
+    and foldername not in ["Contacts"]
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+
+
+
+[Account evo1]
+localrepository = evo1_local
+remoterepository = evo1_remote
+
+
+[Repository evo1_local] 
+type = Maildir
+localfolders = ~/Mail/evo1
+
+[Repository evo1_remote]
+type = IMAP
+remotehost = imap.outlook.com
+remotepasseval = evo1_pass()
+remoteuser = jgoetze@evolution1.com
+folderfilter = lambda foldername: foldername not in ['All Mail'] \
+    and foldername not in ['Junk E-Mail'] \
+    and foldername not in ["Calendar"] \ 
+    and foldername not in ["Journal"] \
+    and foldername not in ["Contacts"] \
+    and foldername not in ["Tasks"] \
+    and foldername not in ["Contacts/Lync Contacts"]
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
