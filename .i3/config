@@ -54,6 +54,7 @@ bindsym XF86AudioPrev exec playerctl previous
 
 # start broweser
 bindsym $mod+Shift+b exec chromium
+bindsym $mod+b exec qutebrowser
 
 #quick switch
 bindsym $mod+q exec /usr/bin/quickswitch.py
