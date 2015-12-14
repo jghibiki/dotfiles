@@ -69,6 +69,7 @@ export LANG=en_US.UTF-8
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export EDITOR=vim
+export BROWSER='chromium %s'
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
@@ -90,6 +91,7 @@ alias lock="xscreensaver-command -lock"
 alias fuck='eval $(thefuck $(fc -ln -1))'
 # You can use whatever you want as an alias, like for Mondays:
 alias FUCK='fuck'
+alias omutt='mutt -F .mutt/muttrc-offline'
 # added by travis gem
 [ -f /home/jghibiki/.travis/travis.sh ] && source /home/jghibiki/.travis/travis.sh
 
