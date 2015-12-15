@@ -1,17 +1,21 @@
 ## Receive optionse
 set imap_user=jordan.goetze@ndsu.edu
-set imap_pass = ''
+set imap_pass = `pass mutt/ndsu`
 set folder = imaps://jordan.goetze@ndsu.edu@smtp.office365.com:993/
 set spoolfile = +INBOX
 set postponed = +Drafts
 set record = "+Sent Items"
 
 ## Send options.
-set smtp_url=smtp://$imap_user:$imap_password@smtp.office365.com:587/
+set smtp_url=smtp://$imap_user:$imap_pass@smtp.office365.com:587/
 set realname='Jordan Goetze'
 set from=jordan.goetze@ndsu.edu
 set hostname="ndsu.edu"
-set signature=""
+set signature="
+Jordan Goetze
+Chair NDSU ACM 2015-2016
+Secretary NDSU ACM 2014-2015
+Email: chair@ndacm.org"
 # Connection options
 set ssl_force_tls = yes
 unset ssl_starttls
@@ -20,8 +24,4 @@ unset ssl_starttls
 set imap_check_subscribed
 
 ## Hook -- IMPORTANT!
-<<<<<<< HEAD
 account-hook $folder "set imap_user=jordan.goetze@ndsu.edu@smtp.office365.com:587/ imap_pass=`pass mutt/ndsu` "
-=======
-account-hook $folder "set imap_user=jordan.goetze@ndsu.edu@smtp.office365.com:587/ imap_pass='' "
->>>>>>> 7fe9a49... update mutt config to allow exchage mailing
