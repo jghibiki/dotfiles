@@ -26,7 +26,7 @@ ametrans = lambda foldername: re.sub ('^\[gmail\]', 'bak',
                                re.sub ('sent_mail', 'sent',
                                re.sub ('starred', 'flagged',
                                re.sub (' ', '_', foldername.lower()))))
-folderfilter = lambda foldername: foldername not in ['[Gmail]/All Mail']
+folderfilter = lambda foldername: foldername not in ['[Gmail]/All Mail'] and foldername not in ["[Gmail]/Trash"]
 sslcacertfile = /etc/ssl/certs/ca-certificates.crt
 
 
@@ -53,7 +53,7 @@ ametrans = lambda foldername: re.sub ('^\[gmail\]', 'bak',
                                re.sub ('sent_mail', 'sent',
                                re.sub ('starred', 'flagged',
                                re.sub (' ', '_', foldername.lower()))))
-folderfilter = lambda foldername: foldername not in ['[Gmail]/All Mail']
+folderfilter = lambda foldername: foldername not in ['[Gmail]/All Mail'] and foldername not in ["[Gmail]/Trash"]
 sslcacertfile = /etc/ssl/certs/ca-certificates.crt
 
 
@@ -77,7 +77,13 @@ folderfilter = lambda foldername: foldername not in ['All Mail'] \
     and foldername not in ["Listserv Junk"] \
     and foldername not in ["Calendar"] \ 
     and foldername not in ["Journal"] \
-    and foldername not in ["Contacts"]
+    and foldername not in ["Contacts"]\
+    and foldername not in ["Notes"]\
+    and foldername not in ["Deleted Items/Sent"]\
+    and foldername not in ["Unwanted"]\
+    and foldername not in ["Clutter"]\
+    and foldername not in ["Deleted Items"] \
+    and foldername not in ["Outbox"]
 sslcacertfile = /etc/ssl/certs/ca-certificates.crt
 
 
@@ -97,10 +103,22 @@ remotehost = imap.outlook.com
 remotepasseval = evo1_pass()
 remoteuser = jgoetze@evolution1.com
 folderfilter = lambda foldername: foldername not in ['All Mail'] \
-    and foldername not in ['Junk E-Mail'] \
+    and foldername not in ['Junk Email'] \
     and foldername not in ["Calendar"] \ 
     and foldername not in ["Journal"] \
     and foldername not in ["Contacts"] \
     and foldername not in ["Tasks"] \
-    and foldername not in ["Contacts/Lync Contacts"]
+    and foldername not in ["Contacts/Lync Contacts"] \
+    and foldername not in ["Deleted Items"] \ 
+    and foldername not in ["Sync Issues"] \
+    and foldername not in ["Sync Issues/Conflicts"] \
+    and foldername not in ["Sync Issues/Local Failures"] \
+    and foldername not in ["Sync Issues/Server Failures"] \
+    and foldername not in ["Notes"] \
+    and foldername not in ["Conversation History"] \
+    and foldername not in ["RSS Feeds"] \
+    and foldername not in ["Clutter"] \
+    and foldername not in ["Send Items"] \
+    and foldername not in ["Outbox"]
+
 sslcacertfile = /etc/ssl/certs/ca-certificates.crt

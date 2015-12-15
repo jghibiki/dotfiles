@@ -91,7 +91,8 @@ alias lock="xscreensaver-command -lock"
 alias fuck='eval $(thefuck $(fc -ln -1))'
 # You can use whatever you want as an alias, like for Mondays:
 alias FUCK='fuck'
-alias omutt='mutt -F .mutt/muttrc-offline'
+alias lmutt='mutt -F .mutt/muttrc.live'
+alias lm="lmutt"
 # added by travis gem
 [ -f /home/jghibiki/.travis/travis.sh ] && source /home/jghibiki/.travis/travis.sh
 

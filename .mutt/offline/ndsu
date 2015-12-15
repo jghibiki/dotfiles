@@ -1,6 +1,7 @@
 ## Recieve Options
 folder-hook ndsu set from="jordan.goetze@ndsu.edu"
-set spoolfile="+ndsu/INBOX"
+set folder="~/Mail/ndsu/"
+set spoolfile="+INBOX"
 set postponed = "+Drafts"
 set record = "+Sent Mail"
 
@@ -23,3 +24,6 @@ set ssl_force_tls = yes
 unset ssl_starttls
 
 
+
+# override update keybind
+macro index \cr '<shell-escape>/usr/bin/offlineimap -a ndsu<enter><sync-mailbox>'
