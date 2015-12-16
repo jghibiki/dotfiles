@@ -1,42 +1,33 @@
-## General options
-set header_cache = "~/.cache/mutt-headers"
-set message_cachedir = "~/.cache/mutt-messages"
-set imap_check_subscribed
-set imap_keepalive = 300
-unset imap_passive
-set mail_check = 60
 set mbox_type=Maildir
-
-## ACCOUNT1
-source "~/.mutt/jghibiki.games@gmail.com"
-# Here we use the $folder variable that has just been set in the sourced file.
-# We must set it right now otherwise the 'folder' variable will change in the next sourced file.
-folder-hook $folder 'source ~/.mutt/jghibiki.games@gmail.com'
-
-## ACCOUNT2
-source "~/.mutt/jordan.goetze@gmail.com"
-folder-hook $folder 'source ~/.mutt/jordan.goetze@gmail.com'
-
-## ACCOUNT3
-source "~/.mutt/ndsu"
-folder-hook $folder 'source ~/.mutt/ndsu'
-
-## ACCOUNT3
-source "~/.mutt/evo1"
-folder-hook $folder 'source ~/.mutt/evo1'
-
-## shortcuts 
-macro index,pager <f2> '<sync-mailbox><enter-command>source ~/.mutt/jghibiki.games@gmail.com<enter><change-folder>!<enter>'
-macro index,pager <f3> '<sync-mailbox><enter-command>source ~/.mutt/jordan.goetze@gmail.com<enter><change-folder>!<enter>'
-macro index,pager <f4> '<sync-mailbox><enter-command>source ~/.mutt/ndsu<enter><change-folder>!<enter>'
-macro index,pager <f5> '<sync-mailbox><enter-command>source ~/.mutt/evo1<enter><change-folder>!<enter>'
-
-macro index 'c' '<change-folder>?<change-dir><home>^K=<enter>'
-
+set folder=$HOME/Mail
 set sleep_time = 0
 
-# helps allow nice viewing of html messages
-set mailcap_path    = ~/.mutt/mailcap
+set sidebar_width = 30
+set sidebar_visible=yes
+
+mailboxes "+----jghibiki_games------------" \
+          "+jghibiki.games@gmail.com/INBOX" \
+          "+jghibiki.games@gmail.com/\[Gmail\].Important" \
+          "+jghibiki.games@gmail.com/\[Gmail\].Drafts" \
+          "+jghibiki.games@gmail.com/\[Gmail\].Sent Mail" \
+          "+----jordan_goetze-------------" \
+          "+jordan.goetze@gmail.com/INBOX" \
+          "+jordan.goetze@gmail.com/\[Gmail\].Important" \
+          "+jordan.goetze@gmail.com/\[Gmail\].Drafts" \
+          "+jordan.goetze@gmail.com/\[Gmail\].Sent Mail" \
+          "+----ndsu---------------------" \
+          "ndsu/INBOX" \
+          "+ndsu/Drafts" \
+          "+ndsu/Sent Items" \
+          "+ndsu/Needs Reply" \
+          "+----evo1---------------------" \
+          "+evo1/INBOX" \
+          "+evo1/Drafts" \
+          "+evo1/Sent" \
+          "+evo1/MSPTFS" 
+
+
+set mailcap_path = ~/.mutt/mailcap
 auto_view text/html
 alternative_order text/plain text/html
 
@@ -44,67 +35,100 @@ set sort=threads
 set sort_browser=date
 set sort_aux=reverse-last-date-received
 
+source ~/.mutt/offline/jghibiki.games@gmail.com
+
+macro index,pager <f2> '<sync-mailbox><enter-command>source ~/.mutt/offline/jghibiki.games@gmail.com<enter><change-folder>!<enter>'
+macro index,pager <f3> '<sync-mailbox><enter-command>source ~/.mutt/offline/jordan.goetze@gmail.com<enter><change-folder>!<enter>'
+macro index,pager <f4> '<sync-mailbox><enter-command>source ~/.mutt/offline/ndsu<enter><change-folder>!<enter>'
+macro index,pager <f5> '<sync-mailbox><enter-command>source ~/.mutt/offline/evo1<enter><change-folder>!<enter>'
+
+macro index \cr '<shell-escape>/usr/bin/offlineimap<enter><sync-mailbox>'
+
+## url view
+macro index,pager,attach,compose go "\
+<enter-command> set my_pipe_decode=~4~pipe_decode pipe_decode<Enter>\
+<pipe-message> urlview<Enter>\
+<enter-command> set pipe_decode=~4~my_pipe_decode; unset my_pipe_decode<Enter>" \
+"call urlview to extract URLs out of a message"
+
+
+macro index 'c' '<change-folder>?<change-dir><home>^K=<enter>'
 
 ##### BEGIN mutt keybindings
 
-### Key Bindings
 
-bind editor <Esc>t complete-query
+# Vim-like keybindings
 
-bind index <Up> previous-entry
-bind pager <Up> previous-line
-bind index <Down> next-entry
-bind pager <Down> next-line
+# Index
+
+#bind index \Ca what-key
+
+# Ctrl-n, Ctrl-p to select next, previous folder.
+# # Ctrl-o to open selected folder.
+bind index,pager <Up> sidebar-prev
+bind index,pager <Down> sidebar-next
+bind index,pager <Right> sidebar-open
 
 bind index j next-entry
-bind pager j next-line
 bind index k previous-entry
+bind index J next-thread
+bind index K previous-thread
+bind index <Return> display-message
+
+bind index / search
+bind index ? search-reverse
+bind index n search-next
+bind index N search-opposite
+
+bind index gg first-entry
+bind index G last-entry
+
+bind index \Cd half-down
+bind index \Cu half-up
+
+bind index l collapse-thread
+bind index z collapse-all
+
+bind index r reply
+bind index a group-reply
+bind index L list-reply
+
+bind index h limit
+
+# '?' is used for search-opposite
+bind index \Ch help
+
+# Always start with threads collapsed and with the most recent thread selected
+push <collapse-all><last-entry>
+
+# Pager
+
+bind pager j next-line
 bind pager k previous-line
 
-# a bit more like slrn...
-bind index X exit
-bind pager X exit
-bind index x sync-mailbox
-bind pager x sync-mailbox
+# The mouse wheel seems to send <up><up><up>/<down><down><down> by default with
+# GNOME Terminal. Use it to scroll through messages.
+bind pager <down> next-line
+bind pager <up>   previous-line
 
-bind generic b previous-page
-bind generic 1G first-entry
-bind generic 1g first-entry
-bind generic <Home> first-entry
-bind generic G last-entry
-bind generic <End> last-entry
-bind pager i noop
-bind pager \eD delete-thread
-bind pager \eU undelete-thread
-bind pager <Home> top
-bind pager <End> bottom
+bind pager / search
+bind pager ? search-reverse
+bind pager n search-next
+bind pager N search-opposite
+
+bind pager gg top
 bind pager G bottom
-bind pager q exit
-bind pager B bounce-message
-bind pager b previous-page
-bind pager <Insert> previous-entry
-bind pager <Delete> next-entry
-#bind index i fetch-mail
-bind index \eD delete-thread
-bind index \eU undelete-thread
-bind index B bounce-message
-bind index b previous-page
-bind index <Home> first-entry
-bind index <End> last-entry
-bind index G last-entry
-bind index <Right> display-message
-bind pager <Left> exit
-bind pager <Right> view-attachments
-bind attach <Left> exit
-bind attach <Right> view-attach
-bind pager b previous-page
-bind pager - noop
-bind pager <Space> next-page
-bind alias <Tab> next-entry
 
-##### END mutt keybindings
+bind pager \Cd half-down
+bind pager \Cu half-up
 
+bind pager r reply
+bind pager a group-reply
+bind pager l list-reply
+bind pager L list-reply
 
+# '?' is used for search-opposite
+bind pager \Ch help
 
 ## Theme kindly inspired from
 ## http://nongeekshandbook.blogspot.ie/2009/03/mutt-color-configuration.html
@@ -176,12 +200,12 @@ color quoted7 green black
 ## Default color definitions
 #color hdrdefault white green
 color signature brightmagenta black
-color indicator black cyan
+#color indicator black cyan
 color attachment black green
 color error red black
 color message white black
 color search brightwhite magenta
-color status brightyellow blue
+#color status brightyellow blue
 color tree brightblue black
 color normal white black
 color tilde green black
