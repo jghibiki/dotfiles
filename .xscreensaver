@@ -1,5 +1,5 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.32 for jghibiki on Sun May  3 23:50:59 2015.
+# Written by xscreensaver-demo 5.34 for jghibiki on Thu Dec 17 14:00:20 2015.
 # http://www.jwz.org/xscreensaver/
 
 timeout:	0:10:00
@@ -40,7 +40,7 @@ selected:	79
 textMode:	program
 textLiteral:	XScreenSaver
 textFile:	
-textProgram:	cowfortune
+textProgram:	/home/jghibiki/.random_ascii.sh
 textURL:	http://en.wikipedia.org/w/index.php?title=Special:NewPages&feed=rss
 
 programs:								      \
@@ -123,7 +123,7 @@ programs:								      \
 -				loop -root				    \n\
 				penetrate -root				    \n\
 				petri -root				    \n\
-				phosphor -root -delay 21538 -scale 2	      \
+				phosphor -root -delay 7965 -scale 1	      \
 				  -ticks 1				    \n\
   GL: 				pulsar -root				    \n\
 				ripples -root				    \n\
@@ -257,6 +257,9 @@ programs:								      \
   GL: 				projectiveplane -root			    \n\
 				tessellimage -root			    \n\
   GL: 				winduprobot -root			    \n\
+  GL: 				romanboy -root				    \n\
+  GL: 				splitflap -root				    \n\
+				testx11 -root				    \n\
 
 
 pointerPollTime:    0:00:05

@@ -1,12 +1,11 @@
-URxvt*font: xft:Inconsolata\ for\ Powerline:size=14
-urxvt*term: urxvt
-urxvt*scrollBar:false
-urxvt*matcher.button: 1
-urxvt*cursorBlink:  true
-urxvt*cursorColor:  #c1c9c9
-
-urxvt*transparent: true
-urxvt*shading: 20
+xterm*faceName: xft:Inconsolata\ for\ Powerline:size=12:antialias=true
+xterm*scrollBar:false
+xterm*matcher.button: 1
+xterm*cursorBlink:  true
+xterm*cursorColor:  #c1c9c9
+xterm
+xterm*transparent: true
+xterm*shading: 20
 
 
 

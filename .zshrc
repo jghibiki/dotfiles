@@ -5,7 +5,11 @@ export ZSH=/home/jghibiki/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+if [[ "$TERM" = "xterm" ]]; then
+    ZSH_THEME="agnoster"
+else
+    ZSH_THEME="gentoo"
+fi
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -108,3 +112,5 @@ fi
 
 . $HOME/.shellrc.load
 
+
+[ -n "$XTERM_VERSION" ] && transset-df -a >/dev/null

@@ -35,10 +35,20 @@ floating_modifier $mod
 #
 #
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+#bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
+#bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
+bindsym $mod+Shift+P exec amixer -c 0 set Master 1dB+
+bindsym $mod+Shift+I exec amixer -c 0 set Master 1dB-
+bindsym $mod+Shift+O exec amixer -c 0 set Master toggle 
+
+bindsym $mod+Shift+backslash exec playerctl next
+bindsym $mod+Shift+bracketleft exec playerctl pevious
+bindsym $mod+Shift+bracketright exec playerctl play-pause
+
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 
 # Touchpad controls
 bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
@@ -48,6 +58,8 @@ bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+
+
 #
 #
 # end audio controls
@@ -142,12 +154,12 @@ bindsym Mod1+space focus mode_toggle
 
 
 # start " output eDP-0
-workspace "1:" output eDP-1
-workspace "2:" output eDP-1
-workspace 3 output eDP-1
-workspace 4 output eDP-1
-workspace 5 output eDP-1
-workspace 6 output eDP-1
+workspace "1:" output LVDS1 
+workspace "2:" output LVDS1 
+workspace 3 output LVDS1
+workspace 4 output LVDS1
+workspace 5 output LVDS1
+workspace 6 output LVDS1
 
 
 # switch to workspace
@@ -213,7 +225,7 @@ bindsym $mod+r mode "resize"
 bar {
 		tray_output primary
 		position top
-		font pango:Convergence FontAwesome, Icons 9
+		font pango:Convergence FontAwesome, Icons 10
 		status_command i3blocks
         strip_workspace_numbers yes
 		colors {

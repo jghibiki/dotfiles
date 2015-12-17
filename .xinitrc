@@ -74,7 +74,8 @@ sleep 1
 
 gpg-agent --daemon --enable-ssh-support --options ~/.gpg-agent-info
 
-setxkbmap -option terminate:ctrl_alt_k
+setkeycodes 114 122
+setkeycodes 115 123
 
 # set up window manager
 #exec startxfce4

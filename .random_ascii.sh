@@ -2,7 +2,7 @@
 
 at_home=`netctl status TryMeWireless | grep dead`
 
-if [ ! -n at_home ]; then
+if [ -n at_home ]; then
     img=`ls .sexy_ascii_imgs | sort -R | head -n 1`;
     cat ".sexy_ascii_imgs/$img";
 else
