@@ -1,0 +1,6 @@
+#!/bin/bash 
+a=`xset -q | grep "Caps Lock: *on"`
+
+if [ ! -z "$a" ]; then
+    echo "<span color='#FF0000'>|  |</span>"
+fi

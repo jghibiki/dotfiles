@@ -15,11 +15,11 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-path="/dev/shm/toggle_disk"
-
-read old < "${path}";
-
-if [[ "$old" -gt 0 ]]; then
+#path="/dev/shm/toggle_disk"
+#
+#read old < "${path}";
+#
+#if [[ "$old" -gt 0 ]]; then
 
     DIR="${BLOCK_INSTANCE:-$HOME}"
     ALERT_LOW="${1:-10}" # color will turn red under this value (default: 10%)
@@ -46,4 +46,4 @@ if [[ "$old" -gt 0 ]]; then
         }
     }
     '
-fi
+#fi

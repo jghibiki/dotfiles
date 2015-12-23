@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # path to the toggle file
-path="/dev/shm/toggle_backlight"
+#path="/dev/shm/toggle_backlight"
 
-read old < "${path}";
+#read old < "${path}";
 
-if [[ "$old" -gt 0 ]]; then
-    read a < /sys/class/backlight/nv_backlight/brightness;
-    echo "$a%";
-fi
+#if [[ "$old" -gt 0 ]]; then
+    a=`xbacklight`
+    echo "${a:0:2}%";
+#fi

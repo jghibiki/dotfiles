@@ -17,11 +17,11 @@
 
 #------------------------------------------------------------------------
 
-path="/dev/shm/toggle_volume"
-
-read old < "${path}";
-
-if [[ "$old" -gt 0 ]]; then
+#path="/dev/shm/toggle_volume"
+#
+#read old < "${path}";
+#
+#if [[ "$old" -gt 0 ]]; then
 
     # The second parameter overrides the mixer selection
     # For PulseAudio users, use "pulse"
@@ -74,4 +74,4 @@ if [[ "$old" -gt 0 ]]; then
     esac
 
     volume | format
-fi
+#fi

@@ -1,10 +1,10 @@
 #!/bin/bash
 
-path="/dev/shm/toggle_cpu_percent"
-
-read old < "${path}";
-
-if [[ "$old" -gt 0 ]]; then
+#path="/dev/shm/toggle_cpu_percent"
+#
+#read old < "${path}";
+#
+#if [[ "$old" -gt 0 ]]; then
 
     usage=`grep 'cpu ' /proc/stat | awk '{usage=($2+$4)*100/($2+$4+$5)} END {print substr(usage, 0,6)}'`
     echo $usage% 
@@ -19,4 +19,4 @@ if [[ "$old" -gt 0 ]]; then
     elif [[ $QUALITY -lt 40 ]]; then
         echo "#FF0000"
     fi
-fi
+#fi

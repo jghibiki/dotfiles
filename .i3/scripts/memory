@@ -13,11 +13,11 @@
 
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
-path="/dev/shm/toggle_memory"
-
-read old < "${path}";
-
-if [[ "$old" -gt 0 ]]; then
+#path="/dev/shm/toggle_memory"
+#
+#read old < "${path}";
+#
+#if [[ "$old" -gt 0 ]]; then
 
     TYPE="${BLOCK_INSTANCE:-mem}"
 
@@ -52,4 +52,4 @@ if [[ "$old" -gt 0 ]]; then
         # TODO: color (if less than X%)
     }
     ' /proc/meminfo
-fi
+#fi
