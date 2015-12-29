@@ -77,6 +77,13 @@ gpg-agent --daemon --enable-ssh-support --options ~/.gpg-agent-info
 setkeycodes 114 122
 setkeycodes 115 123
 
+#auto configure monitor
+if [ `xrandr --listproviders | grep -c 'name:modesetting'` -eq 1 ]; then
+    xrandr --setprovideroutputsource 1 0
+    if [ `xrandr | grep -c 'DVI-I-1 connected '` -eq 1 ]; then
+        source .screenlayout/swapped.sh
+    fi
+fi
 # set up window manager
 #exec startxfce4
 #exec xmonad
