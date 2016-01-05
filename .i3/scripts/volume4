@@ -1,0 +1,10 @@
+#!/bin/bash
+
+status=`pulseaudio-ctl full-status`
+statusArray=($status)
+
+if [ "${statusArray[1]}" == "yes" ]; then
+    echo "MUTE";
+else
+    echo "${statusArray[0]}%"
+fi

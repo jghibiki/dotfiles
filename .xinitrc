@@ -4,26 +4,45 @@
 #
 # Executed by startx (run your own window manager from here)
 
-#if [ -d /etc/X11/xinit/xinitrc.d ]; then
-#    for f in /etc/X11/xinit/xinitrc.d/*; do
-#        [ -x "$f" ] && . "$f"
-#    done
-#    unset f
-#fi
-
-# set key mappings -
-#if [ -s ~/.Xmodmap ]; then
-#    xmodmap ~/.Xmodmap
-#fi
-
 # set synaptic touchpad -
 #synclient VertEdgeScroll=1
 #synclient VertTwoFingerScroll=1
 #synclient HorizEdgeScroll=1
 #synclient HorizTwoFingerScroll=1
 
-# start wireless manager -
-# wicd-client -t &
+
+#auto configure monitor
+multi=0
+if [ `xrandr --listproviders | grep -c 'name:modesetting'` -eq 1 ]; then
+    xrandr --setprovideroutputsource 1 0
+    if [ `xrandr | grep -c 'DVI-I-1 connected '` -eq 1 ]; then
+        source .screenlayout/swapped.sh;
+
+        head -n -6 .i3/config;
+
+        echo 'workspace "1:" output DVI-I-1 
+        workspace "2:" output DVI-I-1
+        workspace 3 output DVI-I-1
+        workspace 4 output DVI-I-1
+        workspace 5 output DVI-I-1
+        workspace 6 output DVI-I-1' >> .i3/config;
+    else
+        multi=1
+    fi
+else
+    multi=1
+fi
+
+if [ "$multi" -eq 1 ]; then
+    head -n -6 .i3/config;
+
+    echo 'workspace "1:" output LVDS1
+    workspace "2:" output LVDS1
+    workspace 3 output LVDS1
+    workspace 4 output LVDS1
+    workspace 5 output LVDS1
+    workspace 6 output LVDS1' >> .i3/config;
+fi
 
 # sets mouse pointer -
 xsetroot -cursor_name left_ptr
@@ -77,13 +96,7 @@ gpg-agent --daemon --enable-ssh-support --options ~/.gpg-agent-info
 setkeycodes 114 122
 setkeycodes 115 123
 
-#auto configure monitor
-if [ `xrandr --listproviders | grep -c 'name:modesetting'` -eq 1 ]; then
-    xrandr --setprovideroutputsource 1 0
-    if [ `xrandr | grep -c 'DVI-I-1 connected '` -eq 1 ]; then
-        source .screenlayout/swapped.sh
-    fi
-fi
+
 # set up window manager
 #exec startxfce4
 #exec xmonad

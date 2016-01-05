@@ -109,6 +109,9 @@ if [[ -r ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.z
     source ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 fi
 
+# source z for dir jumping 
+source ~/Git/z/z.sh
+
 
 . $HOME/.shellrc.load
 

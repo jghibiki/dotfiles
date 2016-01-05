@@ -35,13 +35,13 @@ floating_modifier $mod
 #
 #
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec pulseaudio-ctl up
-bindsym XF86AudioLowerVolume exec pulseaudio-ctl down
-bindsym XF86AudioMute exec pulseaudio-ctl mute
+bindsym XF86AudioRaiseVolume exec amixer -c 0 set Master 1dB+
+bindsym XF86AudioLowerVolume exec amixer -c 0 set Master 1dB-
+bindsym XF86AudioMute exec amixer -c 0 set Master toggle 
 
-bindsym $mod+Shift+P exec pulseaudio-ctl up
-bindsym $mod+Shift+I exec pulseaudio-ctl down
-bindsym $mod+Shift+O exec pulseaudio-ctl mute
+bindsym $mod+Shift+P exec amixer -c 0 set Master 1dB+
+bindsym $mod+Shift+I exec amixer -c 0 set Master 1dB-
+bindsym $mod+Shift+O exec amixer -c 0 set Master toggle 
 
 bindsym $mod+Shift+backslash exec playerctl next
 bindsym $mod+Shift+bracketleft exec playerctl pevious
@@ -265,39 +265,3 @@ exec --no-startup-id xrdb -load ~/.Xresources
 exec --no-startup-id xfconf-query -c xsettings -p /Xft/Antialias -n -t int -s 1
 exec --no-startup-id xfconf-query -c xsettings -p /Xft/Lcdfilter -n -t string -s lcddefault
 exec --no-startup-id rm /dev/shm/toggle_*
-workspace "1:" output DVI-I-1 
-        workspace "2:" output DVI-I-1
-        workspace 3 output DVI-I-1
-        workspace 4 output DVI-I-1
-        workspace 5 output DVI-I-1
-        workspace 6 output DVI-I-1
-workspace "1:" output DVI-I-1 
-    workspace "2:" output DVI-I-1
-    workspace 3 output DVI-I-1
-    workspace 4 output DVI-I-1
-    workspace 5 output DVI-I-1
-    workspace 6 output DVI-I-1
-workspace "1:" output DVI-I-1 
-    workspace "2:" output DVI-I-1
-    workspace 3 output DVI-I-1
-    workspace 4 output DVI-I-1
-    workspace 5 output DVI-I-1
-    workspace 6 output DVI-I-1
-workspace "1:" output DVI-I-1 
-        workspace "2:" output DVI-I-1
-        workspace 3 output DVI-I-1
-        workspace 4 output DVI-I-1
-        workspace 5 output DVI-I-1
-        workspace 6 output DVI-I-1
-workspace "1:" output LVDS1
-    workspace "2:" output LVDS1
-    workspace 3 output LVDS1
-    workspace 4 output LVDS1
-    workspace 5 output LVDS1
-    workspace 6 output LVDS1
-workspace "1:" output LVDS1
-    workspace "2:" output LVDS1
-    workspace 3 output LVDS1
-    workspace 4 output LVDS1
-    workspace 5 output LVDS1
-    workspace 6 output LVDS1
