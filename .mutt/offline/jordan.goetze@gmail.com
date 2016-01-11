@@ -1,5 +1,7 @@
 ## Recieve Options
 folder-hook jordan.goetze@gmail.com set from="jordan.goetze@gmail.com"
+folder-hook jordan.goetze@gmail.com source "~/.mutt/offline/jordan.goetze@gmail.com"
+
 set spoolfile="+jghibiki.games@gmail.com/INBOX"
 set postponed = "+jghibiki.games@gmail.com/\[Gmail\].Drafts"
 set record = "+jghibiki.games@gmail.com/\[Gmail\].Sent Mail"

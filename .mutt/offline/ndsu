@@ -1,5 +1,7 @@
 ## Recieve Options
 folder-hook ndsu set from="jordan.goetze@ndsu.edu"
+folder-hook ndsu source "~/.mutt/offline/ndsu"
+
 set folder="~/Mail/ndsu/"
 set spoolfile="+INBOX"
 set postponed = "+Drafts"
@@ -13,11 +15,7 @@ set smtp_url=smtp://$imap_user:$imap_pass@smtp.office365.com:587/
 set realname='Jordan Goetze'
 set from=jordan.goetze@ndsu.edu
 set hostname="ndsu.edu"
-set signature="
-Jordan Goetze
-Chair NDSU ACM 2015-2016
-Secretary NDSU ACM 2014-2015
-Email: chair@ndacm.org"
+set signature="~/.mutt/signatures/ndsu"
 
 # Connection options
 set ssl_force_tls = yes
