@@ -1,7 +1,7 @@
 # Offlineimap configuration file
 
 [general]
-accounts = jghibiki_games, jordan_goetze, ndsu, evo1
+accounts = jghibiki_games, jordan_goetze, ndsu
 pythonfile = ~/.offlineimap.py
 
 [Account jghibiki_games]
@@ -86,37 +86,3 @@ folderfilter = lambda foldername: foldername not in ['All Mail'] \
 sslcacertfile = /usr/ssl/certs/ca-bundle.crt
 
 
-[Account evo1]
-localrepository = evo1_local
-remoterepository = evo1_remote
-
-
-[Repository evo1_local] 
-type = Maildir
-localfolders = ~/Mail/evo1
-
-[Repository evo1_remote]
-type = IMAP
-remotehost = imap.outlook.com
-remotepasseval = evo1_pass()
-remoteuser = jgoetze@evolution1.com
-folderfilter = lambda foldername: foldername not in ['All Mail'] \
-    and foldername not in ['Junk Email'] \
-    and foldername not in ["Calendar"] \ 
-    and foldername not in ["Journal"] \
-    and foldername not in ["Contacts"] \
-    and foldername not in ["Tasks"] \
-    and foldername not in ["Contacts/Lync Contacts"] \
-    and foldername not in ["Deleted Items"] \ 
-    and foldername not in ["Sync Issues"] \
-    and foldername not in ["Sync Issues/Conflicts"] \
-    and foldername not in ["Sync Issues/Local Failures"] \
-    and foldername not in ["Sync Issues/Server Failures"] \
-    and foldername not in ["Notes"] \
-    and foldername not in ["Conversation History"] \
-    and foldername not in ["RSS Feeds"] \
-    and foldername not in ["Clutter"] \
-    and foldername not in ["Send Items"] \
-    and foldername not in ["Outbox"]
-
-sslcacertfile = /usr/ssl/certs/ca-bundle.crt
