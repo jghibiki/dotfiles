@@ -10,6 +10,8 @@
 #synclient HorizEdgeScroll=1
 #synclient HorizTwoFingerScroll=1
 
+# start ssh agent
+eval $(ssh-agent)
 
 #auto configure monitor
 multi=0

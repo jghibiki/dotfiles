@@ -9,6 +9,7 @@ set record = "+\[Gmail\].Sent Mail"
 
 ## Send options.
 set smtp_url=smtps://jghibiki.games@smtp.gmail.com
+set imap_pass = `pass mutt/jghibiki.games@gmail.com`
 set realname='jghibiki'
 set from=jghibiki.games@gmail.com
 set hostname="gmail.com"

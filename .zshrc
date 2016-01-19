@@ -53,7 +53,7 @@ plugins=(git cp debian docker httpie npm node pip python screen sudo taskwarrior
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/jghibiki/.rvm/bin:/home/jghibiki/.rvm/bin::/home/jghibiki/.rvm/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/jghibiki/.rvm/bin:/home/jghibiki/.rvm/bin::/home/jghibiki/.rvm/bin:/home/jghibiki/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -73,7 +73,7 @@ export LANG=en_US.UTF-8
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export EDITOR=vim
-export BROWSER='chromium %s'
+export BROWSER='chromium'
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
@@ -110,6 +110,7 @@ if [[ -r ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.z
 fi
 
 # source z for dir jumping 
+_Z_CMD='j'
 source ~/Git/z/z.sh
 
 
@@ -117,3 +118,4 @@ source ~/Git/z/z.sh
 
 
 [ -n "$XTERM_VERSION" ] && transset-df -a >/dev/null
+PATH="/usr/local/heroku/bin:$PATH"

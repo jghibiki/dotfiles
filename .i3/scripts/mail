@@ -1,0 +1,6 @@
+
+jghibiki_mail=`ls ~/Mail/jghibiki.games@gmail.com/INBOX/new | wc -l`
+jordan_goetze_mail=`ls ~/Mail/jordan.goetze@gmail.com/INBOX/new | wc -l`
+ndsu_mail=`ls ~/Mail/ndsu/INBOX/new | wc -l`
+
+echo "$jghibiki_mail:$jordan_goetze_mail:$ndsu_mail"

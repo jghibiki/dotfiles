@@ -7,6 +7,8 @@ set sig_on_top # includes signature at top of reply (when itially opening)
 set include # include message on replies
 set forward_quote # include message in forwards
 set editor = "vim" 
+set alias_file = "~/.mutt/aliases"
+source $alias_file
 
 
 set sidebar_width = 30
@@ -37,9 +39,12 @@ set sort=threads
 set sort_browser=date
 set sort_aux=reverse-last-date-received
 
-source ~/.mutt/offline/jordan.goetze@gmail.com
-source ~/.mutt/offline/ndsu
-source ~/.mutt/offline/jghibiki.games@gmail.com
+set folder="~/Mail/fake"
+set spoolfile="+INBOX"
+
+#source ~/.mutt/offline/jordan.goetze@gmail.com
+#source ~/.mutt/offline/ndsu
+#source ~/.mutt/offline/jghibiki.games@gmail.com
 
 
 
@@ -47,7 +52,10 @@ macro index,pager <f2> '<sync-mailbox><enter-command>source ~/.mutt/offline/jghi
 macro index,pager <f3> '<sync-mailbox><enter-command>source ~/.mutt/offline/jordan.goetze@gmail.com<enter><change-folder>!<enter>'
 macro index,pager <f4> '<sync-mailbox><enter-command>source ~/.mutt/offline/ndsu<enter><change-folder>!<enter>'
 
-macro index \cr '<shell-escape>/usr/bin/offlineimap -a jghibiki_games<enter><sync-mailbox>'
+macro pager A |'python2 ~/.mutt/mail2muttalias.py'\n
+macro index,pager \ca '<enter-command>source ~/.mutt/aliases<enter>'
+
+macro index \cr '<shell-escape>/usr/bin/offlineimap<enter><sync-mailbox>'
 
 ## url view
 macro index,pager,attach,compose go "\

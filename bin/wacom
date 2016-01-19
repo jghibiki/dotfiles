@@ -1,0 +1,29 @@
+
+if [[ `xsetwacom --list devices | grep -c "(WL)"` > 0 ]]; then
+
+    xsetwacom -s --set "Wacom Intuos PT S (WL) Pad pad" Button 9 "key Delete"
+    xsetwacom -s --set "Wacom Intuos PT S (WL) Pad pad" Button 8 "key +ctrl z -ctrl"
+    xsetwacom -s --set "Wacom Intuos PT S (WL) Pad pad" Button 3 "key up up"
+    xsetwacom -s --set "Wacom Intuos PT S (WL) Pad pad" Button 1 "key down down"
+    if [[ $1 == 1 ]]; then
+        xsetwacom -s --set "Wacom Intuos PT S (WL) Pen stylus" MapToOutput DVI-I-1
+        echo "Mapped to DVI-I-1 with wireless"
+    else
+        xsetwacom -s --set "Wacom Intuos PT S (WL) Pen stylus" MapToOutput LVDS1
+        echo "Mapped to LVDS1 with wireless"
+    fi
+else
+
+    xsetwacom -s --set "Wacom Intuos PT S Pad pad" Button 9 "key Delete"
+    xsetwacom -s --set "Wacom Intuos PT S Pad pad" Button 8 "key +ctrl z -ctrl"
+    xsetwacom -s --set "Wacom Intuos PT S Pad pad" Button 3 "key up up"
+    xsetwacom -s --set "Wacom Intuos PT S Pad pad" Button 1 "key down down"
+    if [[ $1 == 1 ]]; then
+        xsetwacom -s --set "Wacom Intuos PT S Pen stylus" MapToOutput DVI-I-1
+        echo "Mapped to DVI-I-1"
+    else
+        xsetwacom -s --set "Wacom Intuos PT S Pen stylus" MapToOutput LVDS1
+        echo "Mapped to LVDS1"
+    fi
+
+fi

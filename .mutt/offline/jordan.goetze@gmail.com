@@ -2,13 +2,16 @@
 folder-hook jordan.goetze@gmail.com set from="jordan.goetze@gmail.com"
 folder-hook jordan.goetze@gmail.com source "~/.mutt/offline/jordan.goetze@gmail.com"
 
-set spoolfile="+jghibiki.games@gmail.com/INBOX"
-set postponed = "+jghibiki.games@gmail.com/\[Gmail\].Drafts"
-set record = "+jghibiki.games@gmail.com/\[Gmail\].Sent Mail"
+set folder="~/Mail/jordan.goetze@gmail.com/"
+set spoolfile="+INBOX"
+set postponed = "+\[Gmail\].Drafts"
+set record = "+\[Gmail\].Sent Mail"
 
 
 ## Send options.
-set smtp_url=smtps://jordan.goetze@smtp.gmail.com
+set imap_user=jordan.goetze@gmail.com
+set imap_pass = `pass mutt/jordan.goetze@gmail.com`
+set smtp_url=smtps://$imap_user:$imap_pass@smtp.gmail.com
 set realname='Jordan Goetze'
 set from=jordan.goetze@gmail.com
 set hostname="gmail.com"
