@@ -1,1 +1,0 @@
-document.getElementById('title').innerHTML=chrome.i18n.getMessage('title');document.getElementById('chrome_extension_name').innerHTML=chrome.i18n.getMessage('chrome_extension_name');document.getElementById('settingPanel').innerHTML=chrome.i18n.getMessage('setupAppTitle');

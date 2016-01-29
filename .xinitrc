@@ -20,7 +20,7 @@ if [ `xrandr --listproviders | grep -c 'name:modesetting'` -eq 1 ]; then
     if [ `xrandr | grep -c 'DVI-I-1 connected '` -eq 1 ]; then
         source .screenlayout/swapped.sh;
 
-        head -n -6 .i3/config;
+        cp .i3/config.template .i3/config;
 
         echo 'workspace "1:" output DVI-I-1 
         workspace "2:" output DVI-I-1
@@ -36,7 +36,7 @@ else
 fi
 
 if [ "$multi" -eq 1 ]; then
-    head -n -6 .i3/config;
+    cp .i3/config.template .i3/config;
 
     echo 'workspace "1:" output LVDS1
     workspace "2:" output LVDS1
@@ -88,6 +88,8 @@ sh .screenlayout/default.sh &
 
 export LANG="en_US.UTF-8"
 
+#start albert
+albert &
 
 #start composite manager
 compton -b -f --backend glx --vsync opengl-swc --glx-no-stencil --paint-on-overlay --config ~/.config/compton/config

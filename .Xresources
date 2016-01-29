@@ -4,8 +4,7 @@ xterm*scrollBar:false
 xterm*matcher.button: 1
 xterm*cursorBlink:  true
 xterm*cursorColor:  #c1c9c9
-xterm
-xterm*transparent: true
+xterm*transparent: false
 xterm*shading: 20
 
 

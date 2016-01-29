@@ -74,6 +74,7 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export EDITOR=vim
 export BROWSER='chromium'
+export TERM=xterm-256color
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
@@ -97,6 +98,7 @@ alias fuck='eval $(thefuck $(fc -ln -1))'
 alias FUCK='fuck'
 alias lmutt='mutt -F .mutt/muttrc.live'
 alias lm="lmutt"
+alias vim="nvim"
 # added by travis gem
 [ -f /home/jghibiki/.travis/travis.sh ] && source /home/jghibiki/.travis/travis.sh
 

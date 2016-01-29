@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<channel name="xsettings" version="1.0">
-  <property name="Xft" type="empty">
-    <property name="Antialias" type="int" value="1"/>
-    <property name="Lcdfilter" type="string" value="lcddefault"/>
-  </property>
-</channel>
