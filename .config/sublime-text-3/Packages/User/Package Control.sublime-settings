@@ -1,0 +1,14 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ANSIescape",
+		"Dockerfile Syntax Highlighting",
+		"JS Coverage",
+		"Package Control",
+		"Vintageous"
+	]
+}

@@ -1,0 +1,20 @@
+; tilem2 GtkAccelMap rc-file         -*- scheme -*-
+; this file is an automated accelerator map dump
+;
+; (gtk_accel_path "<Actions>/Emulator/send-file" "<Primary>o")
+; (gtk_accel_path "<Actions>/Emulator/save-calc" "<Primary><Shift>s")
+; (gtk_accel_path "<Actions>/Emulator/receive-file" "<Primary>s")
+; (gtk_accel_path "<Actions>/Emulator/about" "")
+; (gtk_accel_path "<Actions>/Emulator/begin-macro" "")
+; (gtk_accel_path "<Actions>/Emulator/open-macro" "")
+; (gtk_accel_path "<Actions>/Emulator/preferences" "")
+; (gtk_accel_path "<Actions>/Emulator/quit" "<Primary>q")
+; (gtk_accel_path "<Actions>/Emulator/play-macro" "")
+; (gtk_accel_path "<Actions>/Emulator/quick-screenshot" "<Primary><Shift>Print")
+; (gtk_accel_path "<Actions>/Emulator/screenshot" "<Primary>Print")
+; (gtk_accel_path "<Actions>/Emulator/start-debugger" "Pause")
+; (gtk_accel_path "<Actions>/Emulator/open-calc" "<Primary><Shift>o")
+; (gtk_accel_path "<Actions>/Emulator/save-macro" "")
+; (gtk_accel_path "<Actions>/Emulator/reset-calc" "<Primary><Shift>Delete")
+; (gtk_accel_path "<Actions>/Emulator/revert-calc" "")
+; (gtk_accel_path "<Actions>/Emulator/end-macro" "")

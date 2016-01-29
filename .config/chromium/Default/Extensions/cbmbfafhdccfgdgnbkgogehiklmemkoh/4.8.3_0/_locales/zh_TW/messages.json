@@ -1,0 +1,680 @@
+{
+   "360Error": {
+      "message": "(該瀏覽器不支持該插件)"
+   },
+   "addToDialbox": {
+      "message": "收藏到撥號盤"
+   },
+   "addToDialboxSuccess": {
+      "message": "該網頁收藏到微度撥號盤成功"
+   },
+   "all": {
+      "message": "全部"
+   },
+   "appItemDelete": {
+      "message": "刪除"
+   },
+   "appItemDelete_confirm": {
+      "message": "確認徹底刪除此擴展？"
+   },
+   "appItemEnabled": {
+      "message": "已啟用"
+   },
+   "appItemExist": {
+      "message": "已添加"
+   },
+   "appItemGetMore": {
+      "message": "更多擴展..."
+   },
+   "appItemNotExist": {
+      "message": "未添加"
+   },
+   "appItemOpen": {
+      "message": "啟用"
+   },
+   "appItemSave": {
+      "message": "收藏"
+   },
+   "auto": {
+      "message": "自動"
+   },
+   "autoBackup": {
+      "message": "自動雲備份"
+   },
+   "back": {
+      "message": "返回"
+   },
+   "backSettings": {
+      "message": "返回設置"
+   },
+   "backup": {
+      "message": "手動備份"
+   },
+   "baseSettingsMore": {
+      "message": "基本設置"
+   },
+   "bgAutoChange": {
+      "message": "自動變換"
+   },
+   "bgColor": {
+      "message": "背景色"
+   },
+   "bgImportFile": {
+      "message": "選擇本地圖片"
+   },
+   "bgLayout": {
+      "message": "壁紙布局"
+   },
+   "bgLayoutAutoHeight": {
+      "message": "適高"
+   },
+   "bgLayoutAutoWidth": {
+      "message": "適寬"
+   },
+   "bgLayoutCenter": {
+      "message": "中"
+   },
+   "bgLayoutLeft": {
+      "message": "左"
+   },
+   "bgLayoutRight": {
+      "message": "右"
+   },
+   "bgLayoutTensile": {
+      "message": "拉伸"
+   },
+   "bgLayoutTile": {
+      "message": "平鋪"
+   },
+   "bookmardDelete_confirm": {
+      "message": "確認刪除該書簽？"
+   },
+   "bookmarks": {
+      "message": "收藏夾"
+   },
+   "bookmarksAppTitle": {
+      "message": "書 簽"
+   },
+   "bookmarksManage": {
+      "message": "管 理"
+   },
+   "bookmarksRecent": {
+      "message": "最近的添加"
+   },
+   "borwserVersionLower": {
+      "message": "該瀏覽器版本過低，不支持該功能，請升級新的瀏覽器版本~"
+   },
+   "calendarFri": {
+      "message": "周五"
+   },
+   "calendarMon": {
+      "message": "周一"
+   },
+   "calendarSat": {
+      "message": "周六"
+   },
+   "calendarSun": {
+      "message": "周日"
+   },
+   "calendarThu": {
+      "message": "周四"
+   },
+   "calendarTue": {
+      "message": "周二"
+   },
+   "calendarWed": {
+      "message": "周三"
+   },
+   "cancel": {
+      "message": "取消"
+   },
+   "chromeExtension": {
+      "message": "Chrome插件版"
+   },
+   "chrome_extension_description": {
+      "message": "微度新標簽頁是一款基於Html5的Chrome瀏覽器擴展應用。它提供了網站快速撥號、擴展應用快捷訪問、網站雲添加、數據雲備份等功能來增強 Chrome 原生新標簽頁（New Tab）"
+   },
+   "chrome_extension_name": {
+      "message": "X New Tab Page"
+   },
+   "chrome_extension_short_name": {
+      "message": "微度"
+   },
+   "classificationAdd": {
+      "message": "添加分類"
+   },
+   "classificationAppTitle": {
+      "message": "分類"
+   },
+   "classificationDel": {
+      "message": "刪除分類"
+   },
+   "classificationDelete_confirm": {
+      "message": "刪除該分類，將刪除該分類的所有數據，確認要刪除該分類？"
+   },
+   "classificationEdit": {
+      "message": "修改分類"
+   },
+   "classificationEditNotice": {
+      "message": "小提示： 點擊分類名稱可以修改該分類名稱，點擊分類圖標可以修改該分類圖標 ！"
+   },
+   "classificationGame": {
+      "message": "游戲"
+   },
+   "classificationGetDataError": {
+      "message": "分類數據獲取失敗，請重試！"
+   },
+   "classificationLimit": {
+      "message": "最多只能創建%s個分類！"
+   },
+   "classificationLogoEdit": {
+      "message": "選擇分類圖標:"
+   },
+   "classificationMain": {
+      "message": "常用"
+   },
+   "classificationNew": {
+      "message": "新建分類"
+   },
+   "classificationNotice": {
+      "message": "小提示： \"~\" 可以快速喚出分類插件，鼠標右鍵進入分類編輯 ！　\"~\" 對應常用分類切換，\"1-7\" 對應相應的分類切換 ！"
+   },
+   "classificationSelect": {
+      "message": "切換 %s 分類"
+   },
+   "classificationShopping": {
+      "message": "購物"
+   },
+   "classificationShowNotice_next": {
+      "message": "往後再滾一次，進入分類選擇！"
+   },
+   "classificationShowNotice_pre": {
+      "message": "往前再滾一次，進入分類選擇！"
+   },
+   "clear_confirm": {
+      "message": "（同步清空%s賬號當前備份數據）"
+   },
+   "clickHere": {
+      "message": "點此處"
+   },
+   "cloudAppTitle": {
+      "message": "雲網址"
+   },
+   "contextMenusAddToDialbox": {
+      "message": "添加到微度"
+   },
+   "contextMenusSwitch": {
+      "message": "顯示鼠標右鍵微度菜單"
+   },
+   "currentVisiting": {
+      "message": "當前打開"
+   },
+   "dateUnit": {
+      "message": "日"
+   },
+   "dayUnit": {
+      "message": "天"
+   },
+   "default": {
+      "message": "恢復默認"
+   },
+   "delete": {
+      "message": "刪除"
+   },
+   "determine": {
+      "message": "確定"
+   },
+   "dialBoxCloudBoxSwitch": {
+      "message": "顯示添加撥號框"
+   },
+   "dialBoxHeight": {
+      "message": "高度"
+   },
+   "dialBoxHeightUnit": {
+      "message": "px"
+   },
+   "dialBoxNum": {
+      "message": "個數"
+   },
+   "dialBoxNumUnit": {
+      "message": "個"
+   },
+   "dialBoxOpacity": {
+      "message": "透明"
+   },
+   "dialBoxOpacityUnit": {
+      "message": "%"
+   },
+   "dialBoxPage3DNotSupport": {
+      "message": "你的瀏覽器不支持3D效果，無法開啟此效果，建議使用最新Chrome穩定版！"
+   },
+   "dialBoxPage3DSwitcher": {
+      "message": "撥號盤3D效果"
+   },
+   "dialBoxPageSwitcher": {
+      "message": "撥號盤翻頁按鈕"
+   },
+   "dialBoxQBCWidth": {
+      "message": "快捷欄寬度"
+   },
+   "dialBoxQBCWidthUnit": {
+      "message": "px"
+   },
+   "dialBoxQuickSwitcher": {
+      "message": "自動隱藏快捷撥號欄"
+   },
+   "dialBoxRadius": {
+      "message": "弧度"
+   },
+   "dialBoxRadiusUnit": {
+      "message": "px"
+   },
+   "dialBoxSettings": {
+      "message": "撥號盤風格"
+   },
+   "dialBoxSettingsEditTitle": {
+      "message": "點擊輸入"
+   },
+   "dialBoxSettingsMore": {
+      "message": "撥號盤詳細設置"
+   },
+   "dialBoxSpacing": {
+      "message": "間距"
+   },
+   "dialBoxSpacingUnit": {
+      "message": "px"
+   },
+   "dialBoxTitleSwitch": {
+      "message": "顯示撥號框標題"
+   },
+   "dialBoxWidth": {
+      "message": "寬度"
+   },
+   "dialBoxWidthUnit": {
+      "message": "px"
+   },
+   "editDialbox": {
+      "message": "單擊編輯撥號框"
+   },
+   "export": {
+      "message": "導出"
+   },
+   "exportError": {
+      "message": "您的數據導出失敗，請重試！"
+   },
+   "extensionsAppTitle": {
+      "message": "擴展程序"
+   },
+   "extensionsManage": {
+      "message": "管 理"
+   },
+   "filterImages": {
+      "message": "圖片類型錯誤"
+   },
+   "gameCenterAppTitle": {
+      "message": "游戲中心"
+   },
+   "gameCenterPlayNow": {
+      "message": "開始游戲"
+   },
+   "googleLoginTypeTitle": {
+      "message": "Google"
+   },
+   "hourUnit": {
+      "message": "時"
+   },
+   "iKnow": {
+      "message": "知道了"
+   },
+   "import": {
+      "message": "導入 (支持SpeedDial2數據)"
+   },
+   "importError": {
+      "message": "您的數據導入失敗！"
+   },
+   "import_confirm": {
+      "message": "導入數據後將覆蓋您本地和登錄賬號服務器上的備份數據，確定要導入？"
+   },
+   "itemAdd": {
+      "message": "點擊添加"
+   },
+   "lastVisitedAppTitle": {
+      "message": "最近訪問"
+   },
+   "lastVisitedDelete_confirm": {
+      "message": "確認刪除該訪問記錄？"
+   },
+   "lastVisitedNull": {
+      "message": "沒有最近訪問過網站的記錄"
+   },
+   "loadingTimeout": {
+      "message": "加載超時%s..."
+   },
+   "localSkinsLarge": {
+      "message": "您選擇的本地圖片過大"
+   },
+   "loggedOut": {
+      "message": "您的賬號已登出，若要同步數據請及時登錄您的賬號！"
+   },
+   "login": {
+      "message": "雲備份"
+   },
+   "loginMemo": {
+      "message": "( 注：不同的賬號對應不同的雲備份數據, 登錄用戶時服務器端數據會覆蓋本地數據 )"
+   },
+   "logining": {
+      "message": "正在登錄您的用戶，請稍後再執行操作！"
+   },
+   "logoFileLarger": {
+      "message": "Logo文件大於30K,不允許上傳!"
+   },
+   "logoFileUploadError": {
+      "message": "Logo文件上傳失敗!"
+   },
+   "logout": {
+      "message": "登出"
+   },
+   "minSearchPlaceHolder": {
+      "message": "點擊搜索"
+   },
+   "minUnit": {
+      "message": "分"
+   },
+   "monthUnit": {
+      "message": "月"
+   },
+   "more": {
+      "message": "更多..."
+   },
+   "moreSettings": {
+      "message": "更多設置"
+   },
+   "multi": {
+      "message": "多選"
+   },
+   "myApps": {
+      "message": "微度應用"
+   },
+   "never": {
+      "message": "從不"
+   },
+   "noResult": {
+      "message": "暫無數據"
+   },
+   "oBookmarksTitle": {
+      "message": "書簽 - 快捷框"
+   },
+   "oDownloadsTitle": {
+      "message": "下載內容 - 快捷框"
+   },
+   "oExtensionsTitle": {
+      "message": "擴展管理 - 快捷框"
+   },
+   "oHistoryTitle": {
+      "message": "歷史記錄 - 快捷框"
+   },
+   "oNewtabTitle": {
+      "message": "標簽頁 - 快捷框"
+   },
+   "oauthDown": {
+      "message": "數據下載"
+   },
+   "oauthDownDataVersionError": {
+      "message": "你服務器上備份的數據版本比較新，正在使用的插件版本無法下載該數據，請更新插件版本！"
+   },
+   "oauthDown_confirm": {
+      "message": "下載該賬戶%s的數據嗎?"
+   },
+   "oauthImportDataVersionError": {
+      "message": "你導入的數據版本比較新，正在使用的插件版本無法使用該數據，請更新插件版本！"
+   },
+   "oauthSynDataVersionError": {
+      "message": "你服務器上備份的數據版本比較新，請更新插件或數據恢復默認後，才能進行數據同步！"
+   },
+   "oauthSynMsgidError": {
+      "message": "您有更新的數據版本在服務器上，請先 “\u003Ca class=\"reload\">刷新\u003C/a>” 再進行操作！"
+   },
+   "openAll": {
+      "message": "全部打開"
+   },
+   "openAutoBackup": {
+      "message": "登錄用戶，開啟自動雲備份"
+   },
+   "openSwitch": {
+      "message": "開啟“微度”"
+   },
+   "openWeb": {
+      "message": "打開"
+   },
+   "pluginsTitle": {
+      "message": "插 件："
+   },
+   "qqLoginTypeTitle": {
+      "message": "騰訊QQ"
+   },
+   "qqwbLoginTypeTitle": {
+      "message": "騰訊微博"
+   },
+   "quickSearchAppTitle": {
+      "message": "快速搜索"
+   },
+   "removeAll": {
+      "message": "清空"
+   },
+   "reset_confirm": {
+      "message": "確認恢復為默認設置嗎？%s"
+   },
+   "searchResult": {
+      "message": "搜索結果"
+   },
+   "settingSecovery": {
+      "message": "恢復默認設置"
+   },
+   "setupAppTitle": {
+      "message": "設置"
+   },
+   "shareClose": {
+      "message": "不再提示"
+   },
+   "shoppingMallAppTitle": {
+      "message": "超級折扣"
+   },
+   "shoppingMallBuyNow": {
+      "message": "購買"
+   },
+   "shoppingMallDiscountUnit": {
+      "message": "折"
+   },
+   "shoppingMallRateCount": {
+      "message": "評論"
+   },
+   "shoppingMallSellCount": {
+      "message": "成交"
+   },
+   "shortcutsTitle": {
+      "message": "快 捷 框："
+   },
+   "sinaLoginTypeTitle": {
+      "message": "新浪微博"
+   },
+   "siteNavAppTitle": {
+      "message": "網址導航"
+   },
+   "skinsAppSupported": {
+      "message": "支持者： "
+   },
+   "skinsAppTitle": {
+      "message": "雲壁紙"
+   },
+   "suggest": {
+      "message": "● 意見反饋"
+   },
+   "synchronize": {
+      "message": "上傳備份數據"
+   },
+   "taobaoLoginTypeTitle": {
+      "message": "淘寶"
+   },
+   "targetSwitch": {
+      "message": "本窗口打開鏈接"
+   },
+   "title": {
+      "message": "微度新標簽頁"
+   },
+   "toolsAppTitle": {
+      "message": "實用工具"
+   },
+   "topVisited": {
+      "message": "經常訪問"
+   },
+   "useHelp": {
+      "message": "● 使用幫助"
+   },
+   "wallpaperCategoryAll": {
+      "message": "推 薦"
+   },
+   "wallpaperCategoryAuto": {
+      "message": "汽 車"
+   },
+   "wallpaperCategoryBeauty": {
+      "message": "美 女"
+   },
+   "wallpaperCategoryCartoon": {
+      "message": "卡 通"
+   },
+   "wallpaperCategoryClassic": {
+      "message": "經 典"
+   },
+   "wallpaperCategoryGame": {
+      "message": "游 戲"
+   },
+   "wallpaperCategoryHoliday": {
+      "message": "節 日"
+   },
+   "wallpaperCategoryMovies": {
+      "message": "電 影"
+   },
+   "wallpaperCategoryScenery": {
+      "message": "風 景"
+   },
+   "wallpaperCategorySports": {
+      "message": "體 育"
+   },
+   "wallpaperCategoryUsed": {
+      "message": "最近使用"
+   },
+   "weatherAppTitle": {
+      "message": "天氣"
+   },
+   "weatherAutoLocate": {
+      "message": "自動定位"
+   },
+   "weatherCurCity": {
+      "message": "當前城市"
+   },
+   "weatherSearchKeyword": {
+      "message": "輸入城市名"
+   },
+   "weatherTempUnit": {
+      "message": "溫度單位"
+   },
+   "weatherTempUnitC": {
+      "message": "℃"
+   },
+   "weatherTempUnitF": {
+      "message": "℉"
+   },
+   "webSiteLogo": {
+      "message": "圖片"
+   },
+   "webSiteLogoMessage": {
+      "message": "請輸入網站圖片"
+   },
+   "webSiteLogoNull": {
+      "message": "圖片不正確"
+   },
+   "webSiteLogoOutside": {
+      "message": "外鏈Logo:"
+   },
+   "webSiteLogoOutsideUrl": {
+      "message": "Logo外鏈地址:"
+   },
+   "webSiteLogoUpload": {
+      "message": "本地上傳Logo:"
+   },
+   "webSiteLogos": {
+      "message": "通用Logo系列:"
+   },
+   "webSiteTitle": {
+      "message": "標題"
+   },
+   "webSiteTitleMessage": {
+      "message": "請輸入網站名稱"
+   },
+   "webSiteTitleNoError": {
+      "message": "標題輸入正確"
+   },
+   "webSiteTitleNull": {
+      "message": "標題不正確"
+   },
+   "webSiteUrl": {
+      "message": "網址"
+   },
+   "webSiteUrlMessage": {
+      "message": "請輸入網址"
+   },
+   "webSiteUrlNoError": {
+      "message": "網址輸入正確"
+   },
+   "webSiteUrlNull": {
+      "message": "網址不正確"
+   },
+   "websiteAdd": {
+      "message": "手動添加"
+   },
+   "websiteCategoryBook": {
+      "message": "文學小說"
+   },
+   "websiteCategoryEconomy": {
+      "message": "財經投資"
+   },
+   "websiteCategoryGame": {
+      "message": "游戲人生"
+   },
+   "websiteCategoryGeek": {
+      "message": "極客文化"
+   },
+   "websiteCategoryHot": {
+      "message": "熱門推薦"
+   },
+   "websiteCategoryLife": {
+      "message": "創意生活"
+   },
+   "websiteCategoryMusic": {
+      "message": "音樂無限"
+   },
+   "websiteCategoryNews": {
+      "message": "新聞資訊"
+   },
+   "websiteCategoryPopular": {
+      "message": "明星網站"
+   },
+   "websiteCategoryShopping": {
+      "message": "購物血拼"
+   },
+   "websiteCategorySns": {
+      "message": "社區微博"
+   },
+   "websiteCategoryTour": {
+      "message": "旅游足跡"
+   },
+   "websiteCategoryVideo": {
+      "message": "視頻娛樂"
+   },
+   "websiteSearch": {
+      "message": "庫內搜索網站"
+   },
+   "yearUnit": {
+      "message": "年"
+   }
+}

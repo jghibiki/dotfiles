@@ -1,0 +1,680 @@
+{
+   "360Error": {
+      "message": "(Le navigateur ne supporte pas le plug-in)"
+   },
+   "addToDialbox": {
+      "message": "Ajouter à la fenêtre de dialogue"
+   },
+   "addToDialboxSuccess": {
+      "message": "Vous avez joint New Tab Plus"
+   },
+   "all": {
+      "message": "Tous"
+   },
+   "appItemDelete": {
+      "message": "Effacer"
+   },
+   "appItemDelete_confirm": {
+      "message": "êtes-vous s?r de vouloir supprimer l'extension?"
+   },
+   "appItemEnabled": {
+      "message": "Activée"
+   },
+   "appItemExist": {
+      "message": "Ajouté"
+   },
+   "appItemGetMore": {
+      "message": "Plus..."
+   },
+   "appItemNotExist": {
+      "message": "Pas ajoutés"
+   },
+   "appItemOpen": {
+      "message": "Activer"
+   },
+   "appItemSave": {
+      "message": "Ajouter aux favoris"
+   },
+   "auto": {
+      "message": "auto"
+   },
+   "autoBackup": {
+      "message": "Auto Cloud Backup"
+   },
+   "back": {
+      "message": "Retourner"
+   },
+   "backSettings": {
+      "message": "Retour"
+   },
+   "backup": {
+      "message": "Manuel Backup"
+   },
+   "baseSettingsMore": {
+      "message": "Réglage de base"
+   },
+   "bgAutoChange": {
+      "message": "Automatique"
+   },
+   "bgColor": {
+      "message": "Fond Couleur"
+   },
+   "bgImportFile": {
+      "message": "Image locale"
+   },
+   "bgLayout": {
+      "message": "Fond Layout"
+   },
+   "bgLayoutAutoHeight": {
+      "message": "Fit H"
+   },
+   "bgLayoutAutoWidth": {
+      "message": "Fit W"
+   },
+   "bgLayoutCenter": {
+      "message": "Centre"
+   },
+   "bgLayoutLeft": {
+      "message": "Gauche"
+   },
+   "bgLayoutRight": {
+      "message": "Droit"
+   },
+   "bgLayoutTensile": {
+      "message": "étirez"
+   },
+   "bgLayoutTile": {
+      "message": "Tile"
+   },
+   "bookmardDelete_confirm": {
+      "message": "Etes-vous s?r que vous voulez supprimer le signet?"
+   },
+   "bookmarks": {
+      "message": "Bookmarks"
+   },
+   "bookmarksAppTitle": {
+      "message": "Bookmarks"
+   },
+   "bookmarksManage": {
+      "message": "Gérer"
+   },
+   "bookmarksRecent": {
+      "message": "Récent"
+   },
+   "borwserVersionLower": {
+      "message": "La version du navigateur est trop faible, cette fonction n'est pas supportée, veuillez mettre à jour la nouvelle version du navigateur~"
+   },
+   "calendarFri": {
+      "message": "VEN."
+   },
+   "calendarMon": {
+      "message": "LUN."
+   },
+   "calendarSat": {
+      "message": "SAM."
+   },
+   "calendarSun": {
+      "message": "DIM."
+   },
+   "calendarThu": {
+      "message": "JEU."
+   },
+   "calendarTue": {
+      "message": "MAR."
+   },
+   "calendarWed": {
+      "message": "MER."
+   },
+   "cancel": {
+      "message": "Annuler"
+   },
+   "chromeExtension": {
+      "message": "prolongement"
+   },
+   "chrome_extension_description": {
+      "message": "New Tab Plus offre des fonctionnalités comme le speed dial,cloud addition,cloud backup pour renforcer le New Tab originaire."
+   },
+   "chrome_extension_name": {
+      "message": "New Tab Plus"
+   },
+   "chrome_extension_short_name": {
+      "message": "New Tab Plus"
+   },
+   "classificationAdd": {
+      "message": "Ajouter Groupe"
+   },
+   "classificationAppTitle": {
+      "message": "Groupe"
+   },
+   "classificationDel": {
+      "message": "supprimer le groupe"
+   },
+   "classificationDelete_confirm": {
+      "message": "supprimer le groupe va supprimer toutes les données du groupe, confirmez que vous voulez supprimer ce groupe ?"
+   },
+   "classificationEdit": {
+      "message": "Modifier le groupe"
+   },
+   "classificationEditNotice": {
+      "message": "Conseils: Cliquer sur le nom du groupe peut modifier le nom du groupe, cliquer sur l'ic?ne du groupe peut modifier l'ic?ne du groupe!"
+   },
+   "classificationGame": {
+      "message": "Jeux"
+   },
+   "classificationGetDataError": {
+      "message": "échec d'obtention des données de groupe, essayer à nouveau, s'il vous pla?t !"
+   },
+   "classificationLimit": {
+      "message": "Groupes de Max%s！"
+   },
+   "classificationLogoEdit": {
+      "message": "Choisissez Ic?ne de groupe:"
+   },
+   "classificationMain": {
+      "message": "Récent"
+   },
+   "classificationNew": {
+      "message": "Nouveau Groupe"
+   },
+   "classificationNotice": {
+      "message": "Remarque:\"~\" Vous pouvez appeler cette page aussi en cliquent le bouton à droite dans Edit Mode! \"~\" passer au groupe commun, \"1-6\" passez au groupe approprié!"
+   },
+   "classificationSelect": {
+      "message": "Choisissez %s Groupe"
+   },
+   "classificationShopping": {
+      "message": "Shopping"
+   },
+   "classificationShowNotice_next": {
+      "message": "Rouler vers l'arrière une autre fois pour avoir la sélection du groupe !"
+   },
+   "classificationShowNotice_pre": {
+      "message": "Rouler vers l'avant une autre fois pour avoir la sélection du groupe !"
+   },
+   "clear_confirm": {
+      "message": "( Sync nettoyage des données de sauvegarde actuelles %s )"
+   },
+   "clickHere": {
+      "message": "Cliquez ici"
+   },
+   "cloudAppTitle": {
+      "message": "Ajouter"
+   },
+   "contextMenusAddToDialbox": {
+      "message": "Ajouter à New Tab Plus"
+   },
+   "contextMenusSwitch": {
+      "message": "Afficher les menus contextuels"
+   },
+   "currentVisiting": {
+      "message": "Page en cours"
+   },
+   "dateUnit": {
+      "message": ""
+   },
+   "dayUnit": {
+      "message": "Jour"
+   },
+   "default": {
+      "message": "rétablir"
+   },
+   "delete": {
+      "message": "Supprimer"
+   },
+   "determine": {
+      "message": "OK"
+   },
+   "dialBoxCloudBoxSwitch": {
+      "message": "Affichage Ajouter une fenêtre de dialogue"
+   },
+   "dialBoxHeight": {
+      "message": "hauteur"
+   },
+   "dialBoxHeightUnit": {
+      "message": "px"
+   },
+   "dialBoxNum": {
+      "message": "nombre"
+   },
+   "dialBoxNumUnit": {
+      "message": ""
+   },
+   "dialBoxOpacity": {
+      "message": "Transparent"
+   },
+   "dialBoxOpacityUnit": {
+      "message": "%"
+   },
+   "dialBoxPage3DNotSupport": {
+      "message": "Votre navigateur ne supporte pas l'effet 3D, il est recommandé d'utiliser la dernière version stable de Chrome!"
+   },
+   "dialBoxPage3DSwitcher": {
+      "message": "Montrer l'effet 3D de la fenêtre de dialogue"
+   },
+   "dialBoxPageSwitcher": {
+      "message": "Appuyer pour afficher sur l'interrupteur"
+   },
+   "dialBoxQBCWidth": {
+      "message": "Largeur de Bar rapide"
+   },
+   "dialBoxQBCWidthUnit": {
+      "message": "px"
+   },
+   "dialBoxQuickSwitcher": {
+      "message": "Masquer automatiquement la barre rapide"
+   },
+   "dialBoxRadius": {
+      "message": "Radius"
+   },
+   "dialBoxRadiusUnit": {
+      "message": "px"
+   },
+   "dialBoxSettings": {
+      "message": "Dialbox Styles"
+   },
+   "dialBoxSettingsEditTitle": {
+      "message": "Cliquez pour entrer"
+   },
+   "dialBoxSettingsMore": {
+      "message": "Réglages détaillés de la fenêtre de dialogue"
+   },
+   "dialBoxSpacing": {
+      "message": "espacement"
+   },
+   "dialBoxSpacingUnit": {
+      "message": "px"
+   },
+   "dialBoxTitleSwitch": {
+      "message": "Afficher le titre de la fenêtre de dialogue"
+   },
+   "dialBoxWidth": {
+      "message": "largeur"
+   },
+   "dialBoxWidthUnit": {
+      "message": "px"
+   },
+   "editDialbox": {
+      "message": "Cliquez pour modifier la fenêtre de dialogue"
+   },
+   "export": {
+      "message": "Exporter"
+   },
+   "exportError": {
+      "message": "L'exportation a échoué, veuillez réessayer！"
+   },
+   "extensionsAppTitle": {
+      "message": "Extensions"
+   },
+   "extensionsManage": {
+      "message": "Gérer"
+   },
+   "filterImages": {
+      "message": "Téléchargez"
+   },
+   "gameCenterAppTitle": {
+      "message": "Centre de jeu"
+   },
+   "gameCenterPlayNow": {
+      "message": "Jouer"
+   },
+   "googleLoginTypeTitle": {
+      "message": "Google"
+   },
+   "hourUnit": {
+      "message": "heure"
+   },
+   "iKnow": {
+      "message": "Je sais"
+   },
+   "import": {
+      "message": "Importation (soutenez les données de vitesse Dail2)"
+   },
+   "importError": {
+      "message": "L'exportation a échoué！"
+   },
+   "import_confirm": {
+      "message": "L'importation de données va arrêter vos données de sauvegarde sur le local et identifier le serveur, vous êtes s?r d'importer？"
+   },
+   "itemAdd": {
+      "message": "Cliquez pour ajouter l'article"
+   },
+   "lastVisitedAppTitle": {
+      "message": "Historique"
+   },
+   "lastVisitedDelete_confirm": {
+      "message": "êtes-vous s?r de vouloir effacer l'historique des sites que vous avez visités?"
+   },
+   "lastVisitedNull": {
+      "message": "Il n'ya aucune trace des sites récemment visités"
+   },
+   "loadingTimeout": {
+      "message": "chargement%s..."
+   },
+   "localSkinsLarge": {
+      "message": "L'image locale est trop grande!"
+   },
+   "loggedOut": {
+      "message": "Votre compte a été déconnecté, les données synchronizing veuillez vous reconnecter sur votre compte！"
+   },
+   "login": {
+      "message": "Login ( Cloud backup )"
+   },
+   "loginMemo": {
+      "message": "( PS: Le compte différentenregistrera des données différentes, logined va écraser les données locales )"
+   },
+   "logining": {
+      "message": "Vous êtes actuellement en attente de Connexion, veuillez attendre un moment！"
+   },
+   "logoFileLarger": {
+      "message": "Il est interdit de télécharger un logo plus grand que 30K!"
+   },
+   "logoFileUploadError": {
+      "message": "échec du chargement du Logo!"
+   },
+   "logout": {
+      "message": "déconnexion"
+   },
+   "minSearchPlaceHolder": {
+      "message": "Recherche"
+   },
+   "minUnit": {
+      "message": "Min"
+   },
+   "monthUnit": {
+      "message": "-"
+   },
+   "more": {
+      "message": "Plus..."
+   },
+   "moreSettings": {
+      "message": "Réglages"
+   },
+   "multi": {
+      "message": "Choix"
+   },
+   "myApps": {
+      "message": "Mes Apps"
+   },
+   "never": {
+      "message": "Jamais"
+   },
+   "noResult": {
+      "message": "pas de Data"
+   },
+   "oBookmarksTitle": {
+      "message": "Bookmarks - Raccourcis"
+   },
+   "oDownloadsTitle": {
+      "message": "Téléchargements - Raccourcis"
+   },
+   "oExtensionsTitle": {
+      "message": "Extensions - Raccourcis"
+   },
+   "oHistoryTitle": {
+      "message": "Histoire - Raccourcis"
+   },
+   "oNewtabTitle": {
+      "message": "New Tab - Raccourcis"
+   },
+   "oauthDown": {
+      "message": "Source"
+   },
+   "oauthDownDataVersionError": {
+      "message": "La version des données sauvegardée sur votre serveur est plus avancée, le dévers de l'extension courante télécharger ces données, merci de mettre à jour le plugin!"
+   },
+   "oauthDown_confirm": {
+      "message": "Télécharger les données de%s?"
+   },
+   "oauthImportDataVersionError": {
+      "message": "La version des données d'importation est plus avancée, le dévers de l'extension courante d'utiliser ces données, merci de mettre à jour le plugin！"
+   },
+   "oauthSynDataVersionError": {
+      "message": "La version des données sauvegardée sur votre serveur est plus avancée, veuillez mettre à jour le plug-in ou de restaurer d'abord les valeurs par défaut！"
+   },
+   "oauthSynMsgidError": {
+      "message": "Vous avez la version rafra?chie dans votre serveur, avant de choisir,\"\u003Ca class=\"reload\">Refresh\u003C/a>\" s'il vous plait!!"
+   },
+   "openAll": {
+      "message": "Ouvrir tout"
+   },
+   "openAutoBackup": {
+      "message": "vous identifiez, commencer cloud backup"
+   },
+   "openSwitch": {
+      "message": "New Tab Plus ouvert"
+   },
+   "openWeb": {
+      "message": "Ouvert"
+   },
+   "pluginsTitle": {
+      "message": "Plugins："
+   },
+   "qqLoginTypeTitle": {
+      "message": "Tencent QQ"
+   },
+   "qqwbLoginTypeTitle": {
+      "message": "Tencent WeiBo"
+   },
+   "quickSearchAppTitle": {
+      "message": "Recherche rapide"
+   },
+   "removeAll": {
+      "message": "Clair"
+   },
+   "reset_confirm": {
+      "message": "Etes-vous s?r que vous voulez restaurer le réglage par défaut? %s"
+   },
+   "searchResult": {
+      "message": "chercher le resultat"
+   },
+   "settingSecovery": {
+      "message": "réinitialiser Par défaut"
+   },
+   "setupAppTitle": {
+      "message": "Réglage"
+   },
+   "shareClose": {
+      "message": "Don't show any more"
+   },
+   "shoppingMallAppTitle": {
+      "message": "Super Discount"
+   },
+   "shoppingMallBuyNow": {
+      "message": "Buy"
+   },
+   "shoppingMallDiscountUnit": {
+      "message": ""
+   },
+   "shoppingMallRateCount": {
+      "message": "Rate"
+   },
+   "shoppingMallSellCount": {
+      "message": "Sale"
+   },
+   "shortcutsTitle": {
+      "message": "raccourcis："
+   },
+   "sinaLoginTypeTitle": {
+      "message": "Sina WeiBo"
+   },
+   "siteNavAppTitle": {
+      "message": "Navigation"
+   },
+   "skinsAppSupported": {
+      "message": "Pris en charge par "
+   },
+   "skinsAppTitle": {
+      "message": "Le Fond"
+   },
+   "suggest": {
+      "message": "● Suggest"
+   },
+   "synchronize": {
+      "message": "Sauvegarde"
+   },
+   "taobaoLoginTypeTitle": {
+      "message": "TaoBao"
+   },
+   "targetSwitch": {
+      "message": "Fenêtre actuelle pour ouvrir les liens"
+   },
+   "title": {
+      "message": "New Tab Plus"
+   },
+   "toolsAppTitle": {
+      "message": "Outils d'utilité"
+   },
+   "topVisited": {
+      "message": "Liens fréquemment accédés"
+   },
+   "useHelp": {
+      "message": "● Help"
+   },
+   "wallpaperCategoryAll": {
+      "message": "Top"
+   },
+   "wallpaperCategoryAuto": {
+      "message": "Auto"
+   },
+   "wallpaperCategoryBeauty": {
+      "message": "Beauté"
+   },
+   "wallpaperCategoryCartoon": {
+      "message": "Cartoon"
+   },
+   "wallpaperCategoryClassic": {
+      "message": "Classique"
+   },
+   "wallpaperCategoryGame": {
+      "message": "Jeux"
+   },
+   "wallpaperCategoryHoliday": {
+      "message": "Vacances"
+   },
+   "wallpaperCategoryMovies": {
+      "message": "Films"
+   },
+   "wallpaperCategoryScenery": {
+      "message": "Paysages"
+   },
+   "wallpaperCategorySports": {
+      "message": "Sports"
+   },
+   "wallpaperCategoryUsed": {
+      "message": "Utilisé"
+   },
+   "weatherAppTitle": {
+      "message": "Météo"
+   },
+   "weatherAutoLocate": {
+      "message": "Localiser Auto"
+   },
+   "weatherCurCity": {
+      "message": "Ville actuelle"
+   },
+   "weatherSearchKeyword": {
+      "message": "Entrez le Nom de votre Ville"
+   },
+   "weatherTempUnit": {
+      "message": "Unité"
+   },
+   "weatherTempUnitC": {
+      "message": "℃"
+   },
+   "weatherTempUnitF": {
+      "message": "℉"
+   },
+   "webSiteLogo": {
+      "message": "Logo"
+   },
+   "webSiteLogoMessage": {
+      "message": "Téléchargez le logo du site"
+   },
+   "webSiteLogoNull": {
+      "message": "Logo Incorrect"
+   },
+   "webSiteLogoOutside": {
+      "message": "Logo Url:"
+   },
+   "webSiteLogoOutsideUrl": {
+      "message": "Entrez Logo Url:"
+   },
+   "webSiteLogoUpload": {
+      "message": "Téléchargez Logo:"
+   },
+   "webSiteLogos": {
+      "message": "Logo Universal:"
+   },
+   "webSiteTitle": {
+      "message": "Titre"
+   },
+   "webSiteTitleMessage": {
+      "message": "entrez le nom du site"
+   },
+   "webSiteTitleNoError": {
+      "message": "Titre correct"
+   },
+   "webSiteTitleNull": {
+      "message": "Titre incorrect"
+   },
+   "webSiteUrl": {
+      "message": "Url"
+   },
+   "webSiteUrlMessage": {
+      "message": "entrez le site url"
+   },
+   "webSiteUrlNoError": {
+      "message": "Url correct"
+   },
+   "webSiteUrlNull": {
+      "message": "URL incorrecte"
+   },
+   "websiteAdd": {
+      "message": "Ajouter"
+   },
+   "websiteCategoryBook": {
+      "message": "Fiction"
+   },
+   "websiteCategoryEconomy": {
+      "message": "Economie"
+   },
+   "websiteCategoryGame": {
+      "message": "Jeux"
+   },
+   "websiteCategoryGeek": {
+      "message": "Geek"
+   },
+   "websiteCategoryHot": {
+      "message": "Populaire"
+   },
+   "websiteCategoryLife": {
+      "message": "Ma vie"
+   },
+   "websiteCategoryMusic": {
+      "message": "Musique"
+   },
+   "websiteCategoryNews": {
+      "message": "Nouvelles"
+   },
+   "websiteCategoryPopular": {
+      "message": "Top Sites"
+   },
+   "websiteCategoryShopping": {
+      "message": "Shopping"
+   },
+   "websiteCategorySns": {
+      "message": "Réseaux Sociales"
+   },
+   "websiteCategoryTour": {
+      "message": "Voyages"
+   },
+   "websiteCategoryVideo": {
+      "message": "Vidéos"
+   },
+   "websiteSearch": {
+      "message": "Recherche"
+   },
+   "yearUnit": {
+      "message": "-"
+   }
+}

@@ -1,0 +1,9 @@
+{
+	"path": "/usr/local/share/npm/bin:/usr/local/bin:$PATH",
+	"shell_cmd": "npm run test-single-run",
+	"working_dir": "${project_path:${folder}}",
+
+
+	"target": "ansi_color_build",
+    "syntax": "Packages/ANSIescape/ANSI.tmLanguage"
+}

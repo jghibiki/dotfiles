@@ -1,0 +1,20 @@
+{
+  "browsers": [
+    {
+      "name": "chromium",
+      "re": {},
+      "type": "chrome",
+      "profile": "/home/jghibiki/.config/browser-launcher2/chromium-47.0.2526.106_c7cfd636",
+      "command": "chromium",
+      "version": "47.0.2526.106"
+    },
+    {
+      "name": "firefox",
+      "re": {},
+      "type": "firefox",
+      "profile": true,
+      "command": "firefox",
+      "version": "43.0.1"
+    }
+  ]
+}

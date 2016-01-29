@@ -1,0 +1,1086 @@
+{
+	"folder_history":
+	[
+		"/home/jghibiki/Git/Doc",
+		"/home/jghibiki/Playground/Tensorflow"
+	],
+	"last_version": 3083,
+	"last_window_id": 2,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 849.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"sear",
+						"searchResults"
+					],
+					[
+						"pla",
+						"playerState"
+					],
+					[
+						"_ve",
+						"_verify"
+					],
+					[
+						"au",
+						"authenticationService"
+					],
+					[
+						"h_fc",
+						"h_fc1_drop"
+					],
+					[
+						"cro",
+						"cross_entropy"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 162.0,
+				"last_filter": "install",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 480.0
+			},
+			"console":
+			{
+				"height": 146.0,
+				"history":
+				[
+					":w",
+					"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/jghibiki/Git/Doc/levenshtein.js",
+				"/home/jghibiki/Git/Doc/app/client/client_test.js",
+				"/home/jghibiki/Git/Doc/app/player/player_test.js",
+				"/home/jghibiki/Git/Doc/app/player/player.js",
+				"/home/jghibiki/Git/Doc/package.json",
+				"/home/jghibiki/Git/Doc/bower.json",
+				"/home/jghibiki/Git/Doc/app/view1/view1.html",
+				"/home/jghibiki/Git/Doc/app/view1/view1.js",
+				"/home/jghibiki/Git/Doc/app/view2/view2.html",
+				"/home/jghibiki/Git/Doc/app/view2/view2.js",
+				"/home/jghibiki/Git/Doc/app/player.html",
+				"/home/jghibiki/Git/Doc/.gitignore",
+				"/home/jghibiki/Git/Doc/client/app.js",
+				"/home/jghibiki/Git/Doc/client/app/index.html",
+				"/home/jghibiki/Git/Doc/client/app/app.js",
+				"/home/jghibiki/Git/Doc/client/app/view2/view2.js",
+				"/home/jghibiki/Git/Doc/client/app/view2/view2.html",
+				"/home/jghibiki/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/jghibiki/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+				"/home/jghibiki/Git/Doc/server/app.js",
+				"/home/jghibiki/Git/Doc/app/services.js",
+				"/home/jghibiki/Git/Doc/app/index.html",
+				"/home/jghibiki/Git/Doc/app/app.js",
+				"/home/jghibiki/Git/Doc/app/components/version/version_test.js",
+				"/home/jghibiki/Playground/Tensorflow/src/tf_mnist.py",
+				"/home/jghibiki/Playground/Tensorflow/src/mnist.py",
+				"/home/jghibiki/Playground/Tensorflow/src/mnist_summary.py",
+				"/home/jghibiki/Playground/Tensorflow/src/fully_connected_feed.py",
+				"/home/jghibiki/Playground/Tensorflow/src/tf_mechanics.py",
+				"/home/jghibiki/Playground/Tensorflow/src/mnist_expert_conv.py",
+				"/home/jghibiki/Git/tensorflow/tensorflow/g3doc/index.md"
+			],
+			"find":
+			{
+				"height": 26.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"')();",
+					"  <",
+					"js",
+					"8000",
+					"1"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 34.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"view2.html",
+						"app/view2/view2.html"
+					],
+					[
+						"index.html",
+						"app/index.html"
+					],
+					[
+						"app.js",
+						"app/app.js"
+					],
+					[
+						"view1.html",
+						"app/view1/view1.html"
+					],
+					[
+						"view1.js",
+						"app/view1/view1.js"
+					],
+					[
+						"view2.js",
+						"app/view2/view2.js"
+					],
+					[
+						"servie",
+						"app/services.js"
+					],
+					[
+						"view2",
+						"app/view2/view2.js"
+					],
+					[
+						"app/app.js",
+						"client/app/app.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1596.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"relate",
+						"relatedToRecent"
+					],
+					[
+						"setRela",
+						"setRelatedToRecent"
+					],
+					[
+						"clear",
+						"clearRelatedList"
+					],
+					[
+						"upd",
+						"updateRelatedCheckbox"
+					],
+					[
+						"exp",
+						"expected1"
+					],
+					[
+						"epx",
+						"expected2"
+					],
+					[
+						"ge",
+						"getRelated"
+					],
+					[
+						"setRe",
+						"setRelatedCheckboxClicked"
+					],
+					[
+						"init",
+						"initClientctrl"
+					],
+					[
+						"client",
+						"clientCtrl"
+					],
+					[
+						"playback",
+						"playbackSate"
+					],
+					[
+						"c",
+						"clientId"
+					],
+					[
+						"curre",
+						"currentlyPlaying"
+					],
+					[
+						"update",
+						"updateRecentCheckboxTimer"
+					],
+					[
+						"relat",
+						"relatedToRecent"
+					],
+					[
+						"rece",
+						"recentToRelated"
+					],
+					[
+						"updateRelatedChec",
+						"updateRelatedToRecentCheckbox"
+					],
+					[
+						"updateRelated",
+						"updateRelatedToRecentCheckbox"
+					],
+					[
+						"related",
+						"relatedToRecentCheckbox"
+					],
+					[
+						"_rel",
+						"_relatedToRecent_xhr"
+					],
+					[
+						"rela",
+						"relatedToRecent"
+					],
+					[
+						"rel",
+						"relatedToRecent"
+					],
+					[
+						"play",
+						"playbackService"
+					],
+					[
+						"playRe",
+						"playRecent"
+					],
+					[
+						"cure",
+						"currentlyPlaying"
+					],
+					[
+						"sear",
+						"searchResults"
+					],
+					[
+						"pla",
+						"playerState"
+					],
+					[
+						"_ve",
+						"_verify"
+					],
+					[
+						"au",
+						"authenticationService"
+					],
+					[
+						"h_fc",
+						"h_fc1_drop"
+					],
+					[
+						"cro",
+						"cross_entropy"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "app/client/client.js",
+					"settings":
+					{
+						"buffer_size": 3632,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "app/client/client_test.js",
+					"settings":
+					{
+						"buffer_size": 5957,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "doc.sublime-project",
+					"settings":
+					{
+						"buffer_size": 925,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "karma.conf.js",
+					"settings":
+					{
+						"buffer_size": 1263,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "app/client/client.html",
+					"settings":
+					{
+						"buffer_size": 2778,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "app/index.html",
+					"settings":
+					{
+						"buffer_size": 2491,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Doc Test",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Doc Coverage Report",
+							""
+						],
+						[
+							"Doc Test",
+							""
+						],
+						[
+							"Doc Test Debug",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						],
+						[
+							"Packages/User/Karma Test.sublime-build",
+							""
+						]
+					],
+					[
+						"Doc Test",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Doc Coverage Report",
+							""
+						],
+						[
+							"Doc Test",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						],
+						[
+							"Packages/User/Karma Test.sublime-build",
+							""
+						]
+					],
+					[
+						"Doc Test",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Doc Test",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							""
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (All)"
+						],
+						[
+							"Packages/Vintageous/Vintageous.sublime-build",
+							"Vintageous - Test (This File Only)"
+						],
+						[
+							"Packages/User/Karma Test.sublime-build",
+							""
+						]
+					],
+					[
+						"Doc Test",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 416.0
+			},
+			"console":
+			{
+				"height": 146.0,
+				"history":
+				[
+					":w",
+					"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/jghibiki/Git/Doc"
+			],
+			"file_history":
+			[
+				"/home/jghibiki/Git/Doc/app/services.js",
+				"/home/jghibiki/Git/Doc/app.js",
+				"/home/jghibiki/.config/sublime-text-3/Packages/User/JSCoverage.sublime-settings",
+				"/home/jghibiki/Git/Doc/karma.conf.js",
+				"/home/jghibiki/Git/Doc/doc.sublime-project",
+				"/home/jghibiki/.config/sublime-text-3/Packages/User/Karma Test.sublime-build",
+				"/home/jghibiki/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/jghibiki/Git/Doc/app/player/player.html",
+				"/home/jghibiki/Git/Doc/app/player/player_test.js",
+				"/home/jghibiki/Git/Doc/app/player/player.js",
+				"/home/jghibiki/Git/Doc/app/client/client.html",
+				"/home/jghibiki/Git/Doc/app/client/client_test.js",
+				"/home/jghibiki/Git/Doc/app/client/client.js",
+				"/home/jghibiki/Git/Doc/app/components/version/version.js",
+				"/home/jghibiki/Git/Doc/app/components/version/version_test.js",
+				"/home/jghibiki/Git/Doc/app/index.html",
+				"/home/jghibiki/Git/Doc/e2e-tests/scenarios.js",
+				"/home/jghibiki/Git/Doc/e2e-tests/protractor.conf.js",
+				"/home/jghibiki/Git/Doc/app/app.js",
+				"/home/jghibiki/Git/Doc/package.json",
+				"/home/jghibiki/Git/Doc/levenshtein.js",
+				"/home/jghibiki/Git/Doc/bower.json",
+				"/home/jghibiki/Git/Doc/app/view1/view1.html",
+				"/home/jghibiki/Git/Doc/app/view1/view1.js",
+				"/home/jghibiki/Git/Doc/app/view2/view2.html",
+				"/home/jghibiki/Git/Doc/app/view2/view2.js",
+				"/home/jghibiki/Git/Doc/app/player.html",
+				"/home/jghibiki/Git/Doc/.gitignore",
+				"/home/jghibiki/Git/Doc/client/app.js",
+				"/home/jghibiki/Git/Doc/client/app/index.html",
+				"/home/jghibiki/Git/Doc/client/app/app.js",
+				"/home/jghibiki/Git/Doc/client/app/view2/view2.js",
+				"/home/jghibiki/Git/Doc/client/app/view2/view2.html",
+				"/home/jghibiki/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+				"/home/jghibiki/Git/Doc/server/app.js",
+				"/home/jghibiki/Playground/Tensorflow/src/tf_mnist.py",
+				"/home/jghibiki/Playground/Tensorflow/src/mnist.py",
+				"/home/jghibiki/Playground/Tensorflow/src/mnist_summary.py",
+				"/home/jghibiki/Playground/Tensorflow/src/fully_connected_feed.py",
+				"/home/jghibiki/Playground/Tensorflow/src/tf_mechanics.py",
+				"/home/jghibiki/Playground/Tensorflow/src/mnist_expert_conv.py",
+				"/home/jghibiki/Git/tensorflow/tensorflow/g3doc/index.md"
+			],
+			"find":
+			{
+				"height": 26.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"player",
+					"')();",
+					"  <",
+					"js",
+					"8000",
+					"1"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "app/client/client.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3632,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1388,
+										1388
+									]
+								],
+								"settings":
+								{
+									"highlight_line": false,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"translate_tabs_to_spaces": false,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"_vintageous_non_interactive": false,
+										"_vintageous_processing_notation": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 4
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 537.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "app/client/client_test.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5957,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4954,
+										4954
+									]
+								],
+								"settings":
+								{
+									"highlight_line": false,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"_vintageous_non_interactive": false,
+										"_vintageous_processing_notation": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 34
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 2803.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "doc.sublime-project",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 925,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"translate_tabs_to_spaces": false,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 0
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "karma.conf.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1263,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"highlight_line": false,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 0
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "app/client/client.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2778,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										160,
+										160
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"_vintageous_non_interactive": false,
+										"_vintageous_processing_notation": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 33
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "app/index.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2491,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true,
+									"vintage":
+									{
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 0
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 34.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 768.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Doc Test",
+			"position": "0,0,0,0,0,800,49,1196,898,1600,900",
+			"project": "doc.sublime-project",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"services",
+						"app/services.js"
+					],
+					[
+						"client_test",
+						"app/client/client_test.js"
+					],
+					[
+						"client",
+						"app/client/client.js"
+					],
+					[
+						"view2.html",
+						"app/view2/view2.html"
+					],
+					[
+						"index.html",
+						"app/index.html"
+					],
+					[
+						"app.js",
+						"app/app.js"
+					],
+					[
+						"view1.html",
+						"app/view1/view1.html"
+					],
+					[
+						"view1.js",
+						"app/view1/view1.js"
+					],
+					[
+						"view2.js",
+						"app/view2/view2.js"
+					],
+					[
+						"servie",
+						"app/services.js"
+					],
+					[
+						"view2",
+						"app/view2/view2.js"
+					],
+					[
+						"app/app.js",
+						"client/app/app.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+				"_vintageous_last_buffer_search": "play",
+				"_vintageous_last_buffer_search_command": "vi_slash",
+				"_vintageous_last_char_search_command": "vi_t",
+				"_vintageous_last_character_search": "]",
+				"_vintageous_reset_during_init": true,
+				"vintage":
+				{
+					"_cmdline_cd": "/home/jghibiki/Git/Doc/app/client"
+				}
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": "/home/jghibiki/Git/Doc/doc.sublime-workspace"
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/jghibiki/Git/Doc/doc.sublime-workspace",
+			"/home/jghibiki/SublimeText3Projects/doc.sublime-workspace",
+			"/home/jghibiki/SublimeText3Projects/tensor-test.sublime-workspace"
+		]
+	}
+}
