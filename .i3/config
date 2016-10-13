@@ -102,7 +102,8 @@ bindsym $mod+Shift+t exec ~/.touchToggle.sh
 
 
 # start dmenu (a program launcher)
-bindsym Mod1+d exec dmenu_run
+bindsym Mod1+d exec rofi -show run #dmenu_run
+bindsym Mod1+Shift+d exec rofi -show window #dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.

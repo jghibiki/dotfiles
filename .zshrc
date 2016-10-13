@@ -49,7 +49,7 @@ fi
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git cp debian docker httpie npm node pip python screen sudo taskwarrior virtualenv autojump sublime extract django emoji archlinux fabric git-flow )
+plugins=(git cp debian docker httpie npm node pip python screen sudo taskwarrior virtualenv autojump sublime extract django emoji archlinux fabric git-flow ssh-agent)
 
 # User configuration
 
@@ -75,6 +75,9 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export EDITOR=vim
 export BROWSER='chromium'
 export TERM=xterm-256color
+export PYTHONPATH=/usr/lib/python2.7/site-packages:$PYTHONPATH
+export GOPATH=$HOME/go
+export PATH=$GOPATH:$GOPATH/bin:$PATH
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
@@ -98,7 +101,13 @@ alias fuck='eval $(thefuck $(fc -ln -1))'
 alias FUCK='fuck'
 alias lmutt='mutt -F .mutt/muttrc.live'
 alias lm="lmutt"
-alias vim="nvim"
+#alias vim="nvim"
+alias dc='docker-compose'
+alias dm='docker-machine'
+alias d='docker'
+alias umaru='eval "$(dm env umaru-chan)"'
+alias eclim='/home/jghibiki/.eclipse/org.eclipse.platform_4.5.2_155965261_linux_gtk_x86_64/eclimd'
+alias tw='timew'
 # added by travis gem
 [ -f /home/jghibiki/.travis/travis.sh ] && source /home/jghibiki/.travis/travis.sh
 
@@ -121,3 +130,7 @@ source ~/Git/z/z.sh
 
 [ -n "$XTERM_VERSION" ] && transset-df -a >/dev/null
 PATH="/usr/local/heroku/bin:$PATH"
+
+source /home/jghibiki/.dvm/dvm.sh
+
+export PATH="$HOME/.yarn/bin:$PATH"

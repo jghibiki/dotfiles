@@ -1,0 +1,1 @@
+java -Xmx512M -Xss4m -jar ~/Dnd/maptool-1.4.0.5/maptool-*.jar run
