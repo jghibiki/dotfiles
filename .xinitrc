@@ -66,10 +66,6 @@ xdotool key num_lock
 # if [ -f ~/.fehbg ]; then
 #     eval $(cat ~/.fehbg)
 
-# fi
-if [ -f ~/.wallpaper.sh ]; then
-    sh ~/.wallpaper.sh &
-fi
 
 # set up xmobar
 #trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --width 12 --transparent true --alpha 0 --tint 0x000000 --height 16 &
