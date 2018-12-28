@@ -1,1 +1,2 @@
-wine ~/SumatraPDF/SumatraPDF.exe &!
+wine ~/SumatraPDF/SumatraPDF.exe "$@" 2>1 1>/dev/null &!
+exit 0

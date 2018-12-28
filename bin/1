@@ -1,0 +1,13 @@
+0009:fixme:process:SetProcessDEPPolicy (1): stub
+0009:err:ole:CoGetClassObject class {9e56be60-c50f-11cf-9a2c-00a0c90a90ce} not registered
+0009:err:ole:CoGetClassObject class {9e56be60-c50f-11cf-9a2c-00a0c90a90ce} not registered
+0009:err:ole:create_server class {9e56be60-c50f-11cf-9a2c-00a0c90a90ce} not registered
+0009:fixme:ole:CoGetClassObject CLSCTX_REMOTE_SERVER not supported
+0009:err:ole:CoGetClassObject no class object {9e56be60-c50f-11cf-9a2c-00a0c90a90ce} could be created for context 0x17
+0009:fixme:dwmapi:DwmIsCompositionEnabled 0x33f7ac
+0009:err:ole:CoGetClassObject class {9e56be60-c50f-11cf-9a2c-00a0c90a90ce} not registered
+0009:err:ole:CoGetClassObject class {9e56be60-c50f-11cf-9a2c-00a0c90a90ce} not registered
+0009:err:ole:create_server class {9e56be60-c50f-11cf-9a2c-00a0c90a90ce} not registered
+0009:fixme:ole:CoGetClassObject CLSCTX_REMOTE_SERVER not supported
+0009:err:ole:CoGetClassObject no class object {9e56be60-c50f-11cf-9a2c-00a0c90a90ce} could be created for context 0x17
+0009:fixme:shell:IPersistFile_fnSaveCompleted (0xcf3708)->(L"C:\\users\\jghibiki\\Recent\\Pathfinder_ Strategy Guide - Paizo.pdf.lnk"): stub

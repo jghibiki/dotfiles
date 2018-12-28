@@ -1,0 +1,6 @@
+#!/bin/bash
+
+p="`pwd`/$@"
+echo $p
+
+xdg-open "$p"
